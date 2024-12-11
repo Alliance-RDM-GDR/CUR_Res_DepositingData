@@ -1,6 +1,6 @@
 ---
-title: "Depositing research data into repositories"
-
+title: "Depositing research data"
+subtitle: "A primer for scientists"
 author: 
   - name: Daniel Manrique-Castano, Ph.D
     email: daniel.manrique-castano@alliancecan.ca
@@ -222,11 +222,85 @@ Regardless of whether the dataset is linked to a scientific publication, it must
 
 ## {{< bi text-center >}} General guidelines for data sharing{.center}
 
-1.  {{< bi diagram-2-fill >}} Define a dataset [schema/road]{style="color:green;"}
-2.  {{< bi file-earmark-pdf-fill >}} Write a [readme]{style="color:green;"}/metadata file
-3.  {{< bi folder-fill >}} Organize [data]{style="color:green;"} folders and scripts/[codes]{style="color:green;"} folders
+1.  {{< bi bookmark >}} Provide a [descriptive]{style="color:green;"} title, summary and keywords that reflect the content of the dataset.
+2.  {{< bi diagram-2-fill >}} Define a dataset [schema/road]{style="color:green;"}.
+3.  {{< bi file-earmark-pdf-fill >}} Write a [readme]{style="color:green;"}/metadata file.
+4.  {{< bi folder-fill >}} Organize [data]{style="color:green;"} folders and scripts/[codes]{style="color:green;"} folders.
 
-## 1. Define a dataset schema/road
+
+## 1. Provide a descritive title, summary and keywords
+
+### Dataset title
+
+The title must reflect the [nature and content]{style="text-decoration: underline;"} of the dataset.
+
+::: {style="text-align: left; font-size: 70%"}
+
+### {{< bi  bookmark-check >}} Example 1 
+
+[Original:]{style="color:red;"} PiPaw2.0
+
+[Better:]{style="color:green;"} Home cage based motor learning platform PiPaw2.0
+
+
+
+### {{< bi  bookmark-check >}} Example 2
+
+[Original:]{style="color:red;"} Foliar Functional Trait Mapping
+
+[Better:]{style="color:green;"} Foliar Functional Trait Mapping of a mixed temperate forest using imaging spectroscopy
+
+:::
+
+## {.center}
+
+### {{< bi  bookmark-check >}} Example 3
+
+::: {style="text-align: left; font-size: 80%"}
+
+[Original:]{style="color:red;"} Covariation in Width and Depth in Bedrock Rivers Data Archive
+
+[Better:]{style="color:green;"} Data archive for width and depth covariation within the bedrock Fraser Canyon, British Columbia, Canada
+:::
+
+::: callout-caution
+The title of your dataset [IS NOT]{style="color:red;"} the same as the title of your research article
+:::
+
+## Description (summary)
+
+The description must reflect the nature, content and methods of the dataset. The use of numerous keywords is recommended to increase its discoverability.
+
+### {{< bi  bookmark-check >}} Example 1 
+
+::: {style="text-align: left; font-size: 50%"}
+[Original:]{style="color:red;"} This dataset provides climate data (19 bioclimate variables as defined by worldclim) that were generated using the Biosim 11 software at a spatial resolution of 9 km across Canada between 1980-2020.
+
+[Suggested:]{style="color:green;"} This dataset provides climate data (19 bioclimate variables as defined by worldclim) that were generated using the Biosim 11 software at a spatial resolution of 9 km across Canada between 1980-2020. Please refer to https://www.worldclim.org/data/bioclim.html for information about the variables. The dataset contains: the annual mean temperature, mean diurnal range, isothermality, temperature seasonality, maximum temperature of warmest month, minimum temperature of coldest month, temperature annual range, mean temperature of wettest quarter, mean temperature of driest quarter, mean temperature of warmest quarter, mean temperature of coldest quarter, annual precipitation, precipitation of wettest month, precipitation of driest month, precipitation seasonality (coefficient of variation), precipitation of wettest quarter, precipitation of driest quarter, precipitation of warmest quarter, precipitation of coldest quarter.
+:::
+
+## {.center}
+
+### {{< bi  bookmark-check >}} Example 2 
+
+::: {style="text-align: left; font-size: 50%"}
+[Original:]{style="color:red;"} Exposure to neuromodulatory chemicals in the polychaete marine worm, Capitella teleta, has been used to assess changes in locomotory behaviour in adult and juvenile life stages.Worms were exposed to nicotine, fluoxetine, apomorphine, and phenobarbital and had their
+distance moved, maximum velocity, time to/at the edge of the arena, and time to first move measured.
+
+[Suggested:]{style="color:green;"} The presence of compounds such as pharmaceuticals and pesticides act as neurochemicals in aquatic organisms. This repository contains the raw data from a study investigating the effects of neuromodulatory chemicals in the marine polychaete worm Capitella teleta. We investigated the effects of nicotine, fluoxetine, apomorphine and phenobarbital, which are known to interact with acetylcholine, serotonin, dopamine and GABA pathways. We measured locomotory behaviour using a high throughput multi-well plate assay, using parameters such as total distance moved, time spent moving, time spent at the edge and maximum velocity. We also performed RNA extraction and sequencing with juvenile and adult worms to determine if genes in the pathway were expressed. We share gene sequences, alignments, motif searching, and phylogenetic analysis files for each receptor (with acetylcholine, serotonin, dopamine and GABA) and videos, together with raw .fasta files for RNA sequencing and R code for processing/analysis.
+:::
+
+
+## Keywords {.center}
+
+To find relevant keywords, ask yourself the following question:
+
+
+[What terms can a reuser use in a search field to find my record?]{style="color:green;"}
+
+
+
+## 2. Define a dataset schema/road
 
 At the [beginning]{style="color:green;"} (optimal) or [during]{style="color:green;"} (not bad) your research, define an organized scheme for your data.
 
@@ -240,7 +314,7 @@ At the [beginning]{style="color:green;"} (optimal) or [during]{style="color:gree
 
 Overall, ensure that the schema is [logical and consistent]{style="color:green;"}. An external user must be able to understand the directory structure.
 
-## 2. The guiding light of a dataset: the README
+## 3. The guiding light of a dataset: the README
 
 The (main) {{< bi file-earmark-medical-fill>}} [readme]{style="color:green;"} file is a guide to [understanding the dataset]{style="color:green;"} and enabling its reuse or execution.
 
@@ -283,7 +357,7 @@ The dataset is a separate object (from the research article). Methods and tools 
 -   {{< bi credit-card-2-front-fill >}} [Sharing and access information]{style="color:green;"} detailing permissions and terms of use.
 :::
 
-## 3. Organize dataset folders
+## 4. Organize dataset folders
 
 And [organized scheme]{style="color:green;"} is the {{< bi key-fill >}} key to understanding data structure.
 
@@ -478,6 +552,39 @@ When yo submit your data to a repository (FRDR), make sure its meets these chara
 
 3.  {{< bi file-person-fill >}} [Verify independent usability]{style="color:green;"}: Data must be [complete and understandable]{style="text-decoration: underline;"} (include any necessary instructions for data interpretation) without the need for the accompanying research article.
 
+## FAQ {.center}
+
+::: {style="text-align: left;font-size: 80%"}
+{{< bi patch-question >}} **When do I start organizing my data for sharing?**
+
+We recommend implementing [RDM practices early and throughout the research process]{style="color:green;"}. Organizing data after years of [chaotic data management]{style="color:red;"} is not a good idea.
+
+{{< bi patch-question >}} **When do I share my data?** 
+
+Your data can be shared at [any time]{style="color:green;"} during the research process. You do not have to wait until a research article is published to share your data.
+
+{{< bi patch-question >}} **What if my dataset does not fit into protocols such as TIER 4?**
+
+You do not need to worry about this. The most important thing is that your dataset is [well documented, logically organized]{style="color:green;"}, and has [naming conventions]{style="color:green;"} that make it [understandable]{style="text-decoration: underline;"} to potential reusers.
+
+:::
+
+## FAQ {.center}
+
+::: {style="text-align: left;font-size: 80%"}
+{{< bi patch-question >}} **Is my data citable? **
+
+Of course it is. Your dataset gets a [DOI]{style="color:green;"}, which makes it a citable object [independent]{style="text-decoration: underline;"} of your research article. In fact, if you publish your dataset before your article, you can even cite your datasets in your research. 
+
+{{< bi patch-question >}} **How can others use my dataset?**
+
+That depends on the [license]{style="color:green;"} you use. We recommend a [CC-BY 4.0 license]{style="color:green;"}, which allows broad reuse of the data.
+
+{{< bi patch-question >}} **Where do I share my data**
+
+You can share your data in [specialized or generalist]{style="text-decoration: underline;"} repositores like The [Federated Research Data Repository (FRDR)](https://www.frdr-dfdr.ca/repo/) or [Borealis](https://borealisdata.ca/).
+:::
+
 ## In summary {.center}
 
 Be aware that the dataset is a research object that [serves the public and the scientific community]{style="color:green;"}, and that can be used (and cited) [independently]{style="color:green;"} of the research article.
@@ -485,19 +592,18 @@ Be aware that the dataset is a research object that [serves the public and the s
 [Better yet, think of articles as supplements to your dataset!!!]{style="color:green;"}
 
 
+# Canadian generalist repositories
 
-# The Federated Research Data Repository (FRDR)
-
-## Understanding FRDR
+## The Federated Research Data Repository (FRDR){.center}
 
 ::: r-fit-text
-The Federated Research Data Repository (FRDR) is a national platform for Canadian researchers to discover, store, and share research data.
+The [Federated Research Data Repository (FRDR)](https://www.frdr-dfdr.ca/repo/) is a national platform for Canadian researchers to discover, store, and share research data.
 
 **Our goals**:
 
--   {{< bi bookmark-check-fill >}} Improve data [discoverability]{style="color:green;"} (in partnership with [Lunaris](https://www.lunaris.ca/)).
--   {{< bi bookmark-check-fill >}} Promote [open science practices]{style="color:green;"} and the [reuse]{style="color:green;"} of research data.
--   {{< bi bookmark-check-fill >}} Ensure the [long-term preservation]{style="color:green;"} of valuable research data.
+{{< bi bookmark-check-fill >}} Improve data [discoverability]{style="color:green;"} (in partnership with [Lunaris](https://www.lunaris.ca/)).
+{{< bi bookmark-check-fill >}} Promote [open science practices]{style="color:green;"} and the [reuse]{style="color:green;"} of research data.
+{{< bi bookmark-check-fill >}} Ensure the [long-term preservation]{style="color:green;"} of valuable research data.
 :::
 
 ::: callout-tip
@@ -506,18 +612,18 @@ The Federated Research Data Repository (FRDR) is a national platform for Canadia
 FRDR supports a [wide range of disciplines]{style="color:green;"} and data types, providing a robust infrastructure for [management and dissemination]{style="color:green;"} of research data across Canada.
 :::
 
-## Benefits of using FRDR
+## Benefits of using FRDR{.center}
 
 ::: r-fit-text
--   {{< bi bookmark-plus-fill >}} FRDR ensures the [long-term preservation]{style="color:green;"}, [accessibility]{style="color:green;"} and [usability]{style="color:green;"} of datasets through its curation and preservation team.
+{{< bi bookmark-plus-fill >}} FRDR ensures the [long-term preservation]{style="color:green;"}, [accessibility]{style="color:green;"} and [usability]{style="color:green;"} of datasets through its curation and preservation team.
 
--   {{< bi bookmark-plus-fill >}} FRDR supports funding [agencies](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions) requirements related to open access to data (and [research data management plans](https://dmp-pgd.ca/)).
+{{< bi bookmark-plus-fill >}} FRDR supports funding [agencies](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions) requirements related to open access to data (and [research data management plans](https://dmp-pgd.ca/)).
 
--   {{< bi bookmark-plus-fill >}} Promotes [dataset visibility]{style="color:green;"} and [reuse]{style="color:green;"} across a wide range of disciplines.
+{{< bi bookmark-plus-fill >}} Promotes [dataset visibility]{style="color:green;"} and [reuse]{style="color:green;"} across a wide range of disciplines.
 
--   {{< bi bookmark-plus-fill >}} FRDR supports [large datasets]{style="color:green;"}, making it an ideal repository for data-intensive research.
+{{< bi bookmark-plus-fill >}} FRDR supports [large datasets]{style="color:green;"}, making it an ideal repository for data-intensive research.
 
--   {{< bi bookmark-plus-fill >}} FRDR supports researchers in [data management best practices]{style="color:green;"}.
+{{< bi bookmark-plus-fill >}} FRDR supports researchers in [data management best practices]{style="color:green;"}.
 :::
 
 ::: callout-tip
@@ -535,13 +641,83 @@ At FRDR, we aim for datasets to be [standalone objects]{style="color:green;"} (i
 :::
 
 
+## Borealis
+
+::: {style="text-align: left;font-size: 90%"}
+[Borealis](https://borealisdata.ca/) is a Canadian research data repository supported by academic libraries, research institutions, and the Digital Research Alliance of Canada.
+
+**Features**:
+
+{{< bi bookmark-check-fill >}} Built on [Dataverse open-source software]{style="color:green;"} hosted by Scholars Portal / University of Toronto Libraries.
+
+{{< bi bookmark-check-fill >}} Integrated with [single sign-on login]{style="color:green;"} for Canadian Institutions (Canadian Access Federation).
+
+{{< bi bookmark-check-fill >}} [Indexed]{style="color:green;"} in DataCite search, Google dataset search, Lunaris for discoverability.
+:::
+
+
+## Borealist network in Canada{.center}
+
+::: {style="text-align: center;font-size: 50%"}
+![Borealis network in Canada](images/BorealisMap.png){fig-align="center" width="800" height="400"}
+:::
+
+
+## Borealis collections{.center}
+
+::::: {layout-ncol="2"}
+:::: {#first-column}
+::: {style="text-align: left;font-size: 80%"}
+
+* Each institution or group has a top-level collection.
+* Datasets are deposited into collections or sub-collections.
+* Some institutions support researchers with own sub-collections.
+
+:::
+::::
+
+:::: {#second-column}
+::: {style="text-align: center;font-size: 50%"}
+![Borealis datasets are organized in collections](images/BorealisCollections.png){fig-align="center" width="600" height="300"}
+:::
+::::
+:::::
+
+## Borealis tools{.center}
+
+::::: {layout-ncol="2"}
+:::: {#first-column}
+::: {style="text-align: left;font-size: 80%"}
+
+{{< bi layout-wtf >}} [File preview]{style="color:green;"} to explore files directly in the browser.
+
+{{< bi kanban >}} [Data explorer tool]{style="color:green;"} to visualize variables in tabular data files (e.g., SPSS, Excel, CSV). Chart 
+
+{{< bi github >}} [Github integration]{style="color:green;"} using [GitHub actions](https://github.com/marketplace/actions/dataverse-uploader-action).
+:::
+::::
+
+:::: {#second-column}
+::: {style="text-align: center;font-size: 50%"}
+![Borealis table viewer](images/BorealisTools.png){fig-align="center" width="500" height="300"}
+:::
+::::
+:::::
+
+## {.center}
+
+::: {style="text-align: center;font-size: 100%"}
+![Visit [FRDR](https://www.frdr-dfdr.ca/repo/) or [Borealis](https://borealisdata.ca/)](images/Repositories_Logo.png){fig-align="center" width="1000" height="220"}
+:::
+
+
 ------------------------------------------------------------------------
 
 ## Resources and support {.smaller}
 
 ### Supporting material
 
--   https://www.frdr-dfdr.ca/docs/en/depositing_data/
+-   [FRDR documentation](https://www.frdr-dfdr.ca/docs/en/depositing_data/)
 -   [Training resources](https://alliancecan.ca/en/services/research-data-management/learning-and-training/training-resources) from the Alliance 
 
 ### Support Services:
