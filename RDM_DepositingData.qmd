@@ -27,7 +27,11 @@ format:
     mermaid:
       theme: forest
       mermaid-format: svg
-    
+      
+  docx:
+    number-sections: true
+    highlight-style: github
+      
 filters:
   - reveal-auto-agenda
 auto-agenda:
@@ -44,7 +48,7 @@ editor: source
 
 # Why do we care about sharing data?
 
-## Why we share and resuse data?{.center} 
+## Why do we share and reuse data?{.center} 
 
 ::: {style="text-align: left;font-size: 80%"}
 
@@ -63,10 +67,10 @@ Some reasons to share research data are:
 
 The [Goverment of Canada](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management) promotes RDM in its [Tri-Agency Research Data Management Policy](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions).
 
-Through its federal funding agencies, the  the Government of Canada seeks to implement [data management plans (DMPs)]{style="text-decoration: underline;"} and [sharing]{style="text-decoration: underline;"} of research data to maximize the benefits to society. 
+Through its federal funding agencies, the Government of Canada seeks to implement [data management plans (DMPs)]{style="text-decoration: underline;"} and [sharing]{style="text-decoration: underline;"} of research data to maximize the benefits to society. 
 
 
-## {{< bi share-fill >}} Sharing data is a professional responsability{.center}
+## {{< bi share-fill >}} Sharing data is a professional responsibility{.center}
 
 Depositing a dataset in a repository is [NOT ONLY]{style="color:red;"} an exercise in meeting the requirements of funding agencies and journals. It is an [ethical and professional responsibility]{style="color:green;"} of researchers to ensure reproducible science, and the access and reuse of scientific data.
 
@@ -96,7 +100,7 @@ flowchart LR
 %%| fig-height: 9
 
 flowchart LR
-  A[Rigorous peer review] --> B[Validation and reproducibility] --> C[Open Science]
+  A[Rigorous peer review] --> B[Validation and reproducibility] --> C[Open science]
 ```
 
 ### {{< bi signpost >}} For funders:
@@ -106,7 +110,7 @@ flowchart LR
 %%| fig-height: 9
 
 flowchart LR
-  A[Transparency] --> B[Accountability] --> C[Return on Investment]
+  A[Transparency] --> B[Accountability] --> C[Return on investment]
 ```
 
 # Current issues with data 
@@ -161,7 +165,7 @@ flowchart LR
 
 ## Common issues in data repositories{.center} 
 
-When shared, more often than not we observed the the data:
+When shared, more often than not we observed the data:
 
 {{< bi file-earmark-text-fill >}} Lacks comprehensive [metadata and readme file(s)]{style="color:red;"} explaining the [context, methodology, and structure of the dataset]{style="text-decoration: underline;"}.
 
@@ -214,7 +218,7 @@ Regardless of whether the dataset is linked to a scientific publication, it must
 
 -   {{< bi geo-alt-fill >}} Appropriate context and detailed provenance
 -   {{< bi file-earmark-font-fill >}} Accurate/descriptive attributes
--   {{< bi receipt >}} Clear licence and usage rights
+-   {{< bi receipt >}} Clear license and usage rights
 :::
 ::::
 
@@ -228,7 +232,7 @@ Regardless of whether the dataset is linked to a scientific publication, it must
 4.  {{< bi folder-fill >}} Organize [data]{style="color:green;"} folders and scripts/[codes]{style="color:green;"} folders.
 
 
-## 1. Provide a descritive title, summary and keywords
+## 1. Provide a descriptive title, summary and keywords
 
 ### Dataset title
 
@@ -284,10 +288,10 @@ The description must reflect the nature, content and methods of the dataset. The
 ### {{< bi  bookmark-check >}} Example 2 
 
 ::: {style="text-align: left; font-size: 50%"}
-[Original:]{style="color:red;"} Exposure to neuromodulatory chemicals in the polychaete marine worm, Capitella teleta, has been used to assess changes in locomotory behaviour in adult and juvenile life stages.Worms were exposed to nicotine, fluoxetine, apomorphine, and phenobarbital and had their
+[Original:]{style="color:red;"} Exposure to neuromodulatory chemicals in the polychaete marine worm, Capitella teleta, has been used to assess changes in locomotory behavior in adult and juvenile life stages.Worms were exposed to nicotine, fluoxetine, apomorphine, and phenobarbital and had their
 distance moved, maximum velocity, time to/at the edge of the arena, and time to first move measured.
 
-[Suggested:]{style="color:green;"} The presence of compounds such as pharmaceuticals and pesticides act as neurochemicals in aquatic organisms. This repository contains the raw data from a study investigating the effects of neuromodulatory chemicals in the marine polychaete worm Capitella teleta. We investigated the effects of nicotine, fluoxetine, apomorphine and phenobarbital, which are known to interact with acetylcholine, serotonin, dopamine and GABA pathways. We measured locomotory behaviour using a high throughput multi-well plate assay, using parameters such as total distance moved, time spent moving, time spent at the edge and maximum velocity. We also performed RNA extraction and sequencing with juvenile and adult worms to determine if genes in the pathway were expressed. We share gene sequences, alignments, motif searching, and phylogenetic analysis files for each receptor (with acetylcholine, serotonin, dopamine and GABA) and videos, together with raw .fasta files for RNA sequencing and R code for processing/analysis.
+[Suggested:]{style="color:green;"} The presence of compounds such as pharmaceuticals and pesticides act as neurochemicals in aquatic organisms. This repository contains the raw data from a study investigating the effects of neuromodulatory chemicals in the marine polychaete worm Capitella teleta. We investigated the effects of nicotine, fluoxetine, apomorphine and phenobarbital, which are known to interact with acetylcholine, serotonin, dopamine and GABA pathways. We measured locomotory behavior using a high throughput multi-well plate assay, using parameters such as total distance moved, time spent moving, time spent at the edge and maximum velocity. We also performed RNA extraction and sequencing with juvenile and adult worms to determine if genes in the pathway were expressed. We share gene sequences, alignments, motif searching, and phylogenetic analysis files for each receptor (with acetylcholine, serotonin, dopamine and GABA) and videos, together with raw .fasta files for RNA sequencing and R code for processing/analysis.
 :::
 
 
@@ -302,7 +306,7 @@ To find relevant keywords, ask yourself the following question:
 
 ## 2. Define a dataset schema/road
 
-At the [beginning]{style="color:green;"} (optimal) or [during]{style="color:green;"} (not bad) your research, define an organized scheme for your data.
+Define an organized scheme for your data at the [beginning]{style="color:green;"} (best) or [during]{style="color:green;"} your research (not bad).
 
 ::: callout-tip
 ## Think about
@@ -359,7 +363,7 @@ The dataset is a separate object (from the research article). Methods and tools 
 
 ## 4. Organize dataset folders
 
-And [organized scheme]{style="color:green;"} is the {{< bi key-fill >}} key to understanding data structure.
+An [organized scheme]{style="color:green;"} is the {{< bi key-fill >}} key to understanding data structure.
 
 ::::: {layout-ncol="2"}
 :::: {#first-column}
@@ -384,7 +388,7 @@ And [organized scheme]{style="color:green;"} is the {{< bi key-fill >}} key to u
 {{< bi diagram-3-fill >}} Plan/define [directory structures, file formats, and naming conventions]{style="text-decoration: underline;"}.
 :::
 
-For example, [TIER 4.0](https://www.projecttier.org/tier-protocol/protocol-4-0/root/) is [systemic template]{style="color:green;"} to standardize and increase transparency/reproducibility of research data. The user can [download](https://github.com/daniel-manrique/RDM_Training/blob/main/templates/TIER4.0_DatasetTemplate.zip) a folder structure and adapt it to specific cases.
+For example, [TIER 4.0](https://www.projecttier.org/tier-protocol/protocol-4-0/root/) is a [systemic template]{style="color:green;"} to standardize and increase transparency/reproducibility of research data. The user can [download](https://github.com/daniel-manrique/RDM_Training/blob/main/templates/TIER4.0_DatasetTemplate.zip) a folder structure and adapt it to specific cases.
 
 ::::
 
@@ -426,19 +430,19 @@ Sharing the [input/raw data]{style="color:green;"} is a research integrity and d
 
 This [Metadata/]{style="color:orange;"} {{< bi folder-fill >}} contains information about the listed data files to ensure understanding and usability. It may list:
 
--   [Guide to data sources:]{style="color:green;"} It describes how the data were [generated]{style="text-decoration: underline;"} or their [provenance]{style="text-decoration: underline;"}. This may include [methodological details]{style="text-decoration: underline;"}. and [technical metadata]{style="text-decoration: underline;"}..
+-   [Guide to data sources:]{style="color:green;"} It describes how the data were [generated]{style="text-decoration: underline;"} or their [provenance]{style="text-decoration: underline;"}. This may include [methodological details]{style="text-decoration: underline;"} and [technical metadata]{style="text-decoration: underline;"}.
 -   [Codebooks / data dictionaries:]{style="color:green;"} Explain the [contents of files]{style="text-decoration: underline;"}. (mainly .csv tables). They can be [.txt](https://osf.io/9n3gh) or [.csv-xlxs](https://osf.io/925sh) files.
 
 The aim of these resources is to [support the reuse]{style="color:green;"} of the data by providing a faithful and [sufficient description]{style="color:green;"} of the variables.
 
 ## {{< bi folder-fill >}} Analysis data {.center}
 
-A [Data_Analysis/]{style="color:orange;"} {{< bi folder-fill >}} contains the [processed files]{style="color:green;"}, those used to generate the research results.
+A [Data_Analysis/]{style="color:orange;"} {{< bi folder-fill >}} contains the [processed files]{style="color:green;"}, used to generate the research results.
 
 ::::: {layout-ncol="2"}
 :::: {#first-column}
 
-Like the input data, this files contain a [codebook/data dictionary]{style="color:green;"}. Also, these files can be accompanied by a [Data_Appendix]{style="color:green;"} files that showcase basic descriptive statistics or show data distributions.
+Like the input data, these files contain a [codebook/data dictionary]{style="color:green;"}. Also, these files can be accompanied by a [Data_Appendix]{style="color:green;"} files that showcase basic descriptive statistics or show data distributions.
 
 ::::
 
@@ -458,7 +462,7 @@ A [Data_Intermediate/]{style="color:orange;"} {{< bi folder-fill >}} can contain
 Although most scientists may be more comfortable with GUIs, the current research landscape requires the use of scripts and (analysis) code to ensure the reproducibility of research results.
 
 ::: callout-tip
-{{< bi code-square >}} Coding should be considered an [essential skill]{style="color:green;"}, as well as other methods such as animal surgery, patch clamp, or flow cytometry).
+{{< bi code-square >}} Coding should be considered an [essential skill]{style="color:green;"}, as well as other methods such as animal surgery, patch clamp, or flow cytometry.
 :::
 
 ![](images/theway.png){fig-align="center"}
@@ -479,20 +483,20 @@ A [Scripts_Processing]{style="color:orange;"} {{< bi folder-fill >}} may contain
 -   Combine different sources of information (merge tables or files)
 
 ::: callout-tip
-Yo may want to consider saving the generated intermediatw files in the [Data_Intermediate/]{style="color:orange;"} {{< bi folder-fill >}}.
+You may want to consider saving the generated intermediate files in the [Data_Intermediate/]{style="color:orange;"} {{< bi folder-fill >}}.
 :::
 :::
 
 ## {{< bi lightbulb-fill >}} Keep in mind {.center}
 
-You will cereate several processing scripts. [Logical naming conventions]{style="color:green;"} are the key to linking the input/output data to the processing scripts.
+You will create several processing scripts. [Logical naming conventions]{style="color:green;"} are the key to linking the input/output data to the processing scripts.
 
 ## {{< bi folder-fill >}} Analysis scripts {.smaller}
 
 ::::: {layout-ncol="2"}
 :::: {#first-column}
 
-The [Scripts_Analisys]{style="color:orange;"} {{< bi folder-fill >}} folder host scripts/code to generate results that may be in the form of:
+The [Scripts_Analysis]{style="color:orange;"} {{< bi folder-fill >}} folder hosts scripts/code to generate results that may be in the form of:
 
 -   {{< bi card-image >}} Images
 -   {{< bi file-bar-graph-fill >}} Figures
@@ -538,19 +542,19 @@ The [Output/]{style="color:orange;"} {{< bi folder-fill >}} contains subfolders 
 
 ## {{< bi lightbulb-fill >}} Commitment to reproducibility {.center}
 
-Sharing the output resulting from computations/code is one of the best better commitments to [open and reproducible science]{style="color:green;"}. It is also a way to preserve material for future use in an organized way.
+Sharing the output resulting from computations/code is one of the best commitments to [open and reproducible science]{style="color:green;"}. It is also a way to preserve material for future use in an organized way.
 
 # Data submission checklist
 
 ## {{< bi card-checklist >}} Submitting your data to a repository {.smaller}
 
-When yo submit your data to a repository (FRDR), make sure its meets these characteristics:
+When you submit your data to a repository (FRDR), make sure it meets these characteristics:
 
 1.  {{< bi diagram-2-fill >}} [Your folders and files are organized in a clear and structured way]{style="color:green;"} (understandable to the community): Use [standardized file formats]{style="color:green;"} (e.g., CSV, TIFF) and check for consistency in [naming conventions]{style="color:green;"}.
 
-2.  {{< bi file-earmark-text-fill >}} [The metadata/readme is as complete as possible]{style="color:green;"} and allow  to be understood as a standalone object, providing data [collection methods, processing steps, and relevant context]{style="text-decoration: underline;"}.
+2.  {{< bi file-earmark-text-fill >}} [The metadata/readme is as complete as possible]{style="color:green;"} and can be understood as a standalone object that provides data [collection methods, processing steps, and relevant context]{style="text-decoration: underline;"}.
 
-3.  {{< bi file-person-fill >}} [Verify independent usability]{style="color:green;"}: Data must be [complete and understandable]{style="text-decoration: underline;"} (include any necessary instructions for data interpretation) without the need for the accompanying research article.
+3.  {{< bi file-person-fill >}} [Verify independent usability]{style="color:green;"}: Data must be [complete and understandable]{style="text-decoration: underline;"} (including any necessary instructions for data interpretation) without the need for the accompanying research article.
 
 ## FAQ {.center}
 
@@ -580,9 +584,9 @@ Of course it is. Your dataset gets a [DOI]{style="color:green;"}, which makes it
 
 That depends on the [license]{style="color:green;"} you use. We recommend a [CC-BY 4.0 license]{style="color:green;"}, which allows broad reuse of the data.
 
-{{< bi patch-question >}} **Where do I share my data**
+{{< bi patch-question >}} **Where do I share my data?**
 
-You can share your data in [specialized or generalist]{style="text-decoration: underline;"} repositores like The [Federated Research Data Repository (FRDR)](https://www.frdr-dfdr.ca/repo/) or [Borealis](https://borealisdata.ca/).
+You can share your data in [specialized or generalist]{style="text-decoration: underline;"} repositories like The [Federated Research Data Repository (FRDR)](https://www.frdr-dfdr.ca/repo/) or [Borealis](https://borealisdata.ca/).
 :::
 
 ## In summary {.center}
@@ -602,12 +606,14 @@ The [Federated Research Data Repository (FRDR)](https://www.frdr-dfdr.ca/repo/) 
 **Our goals**:
 
 {{< bi bookmark-check-fill >}} Improve data [discoverability]{style="color:green;"} (in partnership with [Lunaris](https://www.lunaris.ca/)).
+
 {{< bi bookmark-check-fill >}} Promote [open science practices]{style="color:green;"} and the [reuse]{style="color:green;"} of research data.
+
 {{< bi bookmark-check-fill >}} Ensure the [long-term preservation]{style="color:green;"} of valuable research data.
 :::
 
 ::: callout-tip
-## FRDR is for canadian researchers
+## FRDR is for Canadian researchers
 
 FRDR supports a [wide range of disciplines]{style="color:green;"} and data types, providing a robust infrastructure for [management and dissemination]{style="color:green;"} of research data across Canada.
 :::
@@ -656,7 +662,7 @@ At FRDR, we aim for datasets to be [standalone objects]{style="color:green;"} (i
 :::
 
 
-## Borealist network in Canada{.center}
+## Borealis network in Canada{.center}
 
 ::: {style="text-align: center;font-size: 50%"}
 ![Borealis network in Canada](images/BorealisMap.png){fig-align="center" width="800" height="400"}
@@ -718,6 +724,7 @@ At FRDR, we aim for datasets to be [standalone objects]{style="color:green;"} (i
 ### Supporting material
 
 -   [FRDR documentation](https://www.frdr-dfdr.ca/docs/en/depositing_data/)
+-   [Borealis user guide](https://borealisdata.ca/guides/en/latest/user/)
 -   [Training resources](https://alliancecan.ca/en/services/research-data-management/learning-and-training/training-resources) from the Alliance 
 
 ### Support Services:
