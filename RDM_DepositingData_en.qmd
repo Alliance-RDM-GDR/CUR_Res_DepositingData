@@ -1,6 +1,6 @@
 ---
 title: "Sharing and depositing research data"
-subtitle: "A guide for scientists"
+subtitle: "A guide for researchers"
 author: 
   - name: Daniel Manrique-Castano, Ph.D
     email: daniel.manrique-castano@alliancecan.ca
@@ -760,13 +760,23 @@ At FRDR, we aim for datasets to be [standalone objects]{style="color:green;"} (i
 
 ## Resources and support {.smaller}
 
+::::: {layout-ncol="2"}
+:::: {#first-column}
 ### Supporting material
 
 -   [FRDR documentation](https://www.frdr-dfdr.ca/docs/en/depositing_data/)
 -   [Borealis user guide](https://borealisdata.ca/guides/en/latest/user/)
 -   [Training resources](https://alliancecan.ca/en/services/research-data-management/learning-and-training/training-resources) from the Alliance 
+::::
 
-### Support Services:
+:::: {#second-column}
+::: {style="text-align: center;font-size: 100%"}
+![This presentation is available [here](https://github.com/Alliance-RDM-GDR/RDM_DepositingData) (English or French)](images/Presentation_QR-code.png){fig-align="center" width="200" height="200"}
+:::
+::::
+:::::
+
+### Support Services
 
 Contact us to ensure that your data is well prepared and can be effectively shared with the research community.
 

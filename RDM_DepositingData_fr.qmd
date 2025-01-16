@@ -1,6 +1,6 @@
 ---
 title: "Sharing and depositing research data"
-subtitle: "A guide for scientists - Frances"
+subtitle: "A guide for researchers"
 author: 
   - name: Daniel Manrique-Castano, Ph.D
     email: daniel.manrique-castano@alliancecan.ca
