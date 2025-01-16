@@ -1,6 +1,6 @@
 ---
 title: "Depositing research data"
-subtitle: "A primer for scientists"
+subtitle: "A primer for researchers"
 author: 
   - name: Daniel Manrique-Castano, Ph.D
     email: daniel.manrique-castano@alliancecan.ca
@@ -11,6 +11,7 @@ date: last-modified
 date-format: full
 
 format: 
+
   html:
     embed-resources: true
     mermaid:
@@ -26,20 +27,15 @@ format:
     preview-links: auto
     mermaid:
       theme: forest
-      mermaid-format: svg
-      
-  docx:
-    number-sections: true
-    highlight-style: github
-      
+      mermaid-format: png
+    
+    
 filters:
   - reveal-auto-agenda
 auto-agenda:
   bullets: numbered
   heading: Agenda
   
-  gfm:
-    mermaid-format: svg
 
 css: styles.css
 bibliography: references.bib 
@@ -453,6 +449,49 @@ Like the input data, these files contain a [codebook/data dictionary]{style="col
 ::::
 :::::
 
+## {{< bi backspace-reverse-fill>}} Beware of poorly formatted tables {.center}
+
+::: {style="text-align: left;font-size: 70%"}
+Despite being the most common file type (.xls) for recording/storing data, tables are the most [poorly organized and unusable]{style="color:red;"} objects in research.
+:::
+
+::::: {layout-ncol="2"}
+:::: {#first-column}
+::: {style="text-align: center;font-size: 50%"}
+![from https://dansteer.wordpress.com/](images/BadTable1.webp){fig-align="center" width="600" height="300"}
+:::
+::::
+
+:::: {#second-column}
+::: {style="text-align: center;font-size: 50%"}
+![Courtesy of researcher](images/BadTable2.png){fig-align="center" width="600" height="300"}
+:::
+::::
+:::::
+
+## {{< bi file-earmark-spreadsheet>}} Share tidy-formatted tables{.center} 
+
+::::: {layout-ncol="2" layout-valign="center"}
+:::: {#first-column}
+::: {style="text-align: center;font-size: 60%"} 
+![A typical long-format data table organizes the information by rows and columns](images/GoodTable.png){fig-align="left" width="500" height="300"}
+:::
+::::
+
+:::: {#second-column}
+::: {style="text-align: center;font-size: 60%"}
+### Columns
+- {{< bi file-earmark-person-fill>}} [Identifier variables]{style="color:green;"}: animal ID, Time point, condition (factors or characters).
+- {{< bi dropbox>}} [Analysis variables]{style="color:green;"}: score, area, number of cells, etc (numerical or categorical).
+- {{< bi device-ssd-fill>}} [Variables created]{style="color:green;"} during processing (proportions, ratios, etc).
+
+### Rows
+- {{< bi clipboard-data-fill>}} [Variable values]{style="color:green;"}: entries for each column (variable). Each row corresponds to a unique observation.
+:::
+::::
+:::::
+
+
 ## {{< bi folder-fill >}} Intermediate data (Optional) {.center}
 
 A [Data_Intermediate/]{style="color:orange;"} {{< bi folder-fill >}} can contain intermediate processed data, or pre-processed files as part of an analysis pipeline. For example, image 'masks' and machine learning classifiers that are used to further process images.
@@ -469,7 +508,7 @@ Although most scientists may be more comfortable with GUIs, the current research
 
 ## {{< bi folder-fill >}} Processing scripts
 
-::: r-fit-text
+::: {style="text-align: left; font-size: 75%"}
 ::: {.callout-caution collapse="true"}
 The data you get from your measurements may not be formatted and organized in a way that allows you to analyse it and generate results.
 :::
@@ -491,18 +530,18 @@ You may want to consider saving the generated intermediate files in the [Data_In
 
 You will create several processing scripts. [Logical naming conventions]{style="color:green;"} are the key to linking the input/output data to the processing scripts.
 
-## {{< bi folder-fill >}} Analysis scripts {.smaller}
+## {{< bi folder-fill >}} Analysis scripts 
 
 ::::: {layout-ncol="2"}
 :::: {#first-column}
-
+::: {style="text-align: left; font-size: 80%"}
 The [Scripts_Analysis]{style="color:orange;"} {{< bi folder-fill >}} folder hosts scripts/code to generate results that may be in the form of:
 
 -   {{< bi card-image >}} Images
 -   {{< bi file-bar-graph-fill >}} Figures
 -   {{< bi table >}} Tables
 -   {{< bi calculator-fill >}} Statistical models
-
+:::
 ::::
 
 :::: {#Second-column}
