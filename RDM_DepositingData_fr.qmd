@@ -581,7 +581,7 @@ Lorsque vous partagez des données, assurez-vous que l'ensemble de données rép
 
 - {{< bi diagram-2-fill >}} Les dossiers et les fichiers sont [clairement structurés]{style="color:green;"}.
 
-- {{< bi file-earmark-text-fill >}} Les fichiers et les dossiers ont des [0onventions de dénomination]{style="color:green;"} cohérentes.
+- {{< bi file-earmark-text-fill >}} Les fichiers et les dossiers ont des [Conventions de dénomination]{style="color:green;"} cohérentes.
 
 - {{< bi file-earmark-text-fill >}} Les formats de [fichiers ouverts]{style="color:green;"} (par exemple CSV, TIFF) facilitent l'ouverture et la réutilisation des données.
 
@@ -743,11 +743,21 @@ Le DFDR bénéficie de personnel qualifié qui guide les équipes de recherche e
 
 ## Ressources et soutien {.smaller}
 
+::::: {layout-ncol="2"}
+:::: {#first-column}
 ### Matériel d'appui
 
 -   [Documents du DFDR](https://www.frdr-dfdr.ca/docs/en/depositing_data/)
 -   [Guide de l'utilisateur Borealis](https://borealisdata.ca/guides/en/latest/user/)
 -   [Ressources de formation de l’Alliance](https://alliancecan.ca/en/services/research-data-management/learning-and-training/training-resources) from the Alliance 
+::::
+
+:::: {#second-column}
+::: {style="text-align: center;font-size: 100%"}
+![Cette présentation est disponible [ici](https://github.com/Alliance-RDM-GDR/RDM_DepositingData) (anglais ou français)(images/Presentation_QR-code.png){fig-align="center" width="200" height="200"}
+:::
+::::
+:::::
 
 ### Services d'appui:
 

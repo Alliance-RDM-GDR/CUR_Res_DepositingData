@@ -307,7 +307,7 @@ The [README]{style="color:green;"} file is a guide to [understanding the dataset
 ::::: {layout-ncol="2"}
 :::: {#first-column}
 ::: {style="text-align: center; font-size: 50%"}
-![From https://github.com/twbs/bootstrap-rubygem](images/README.webp){fig-align="center" width="500" height="300"}
+![From https://github.com/twbs/bootstrap-rubygem](images/readme.webp){fig-align="center" width="500" height="300"}
 :::
 ::::
 
@@ -499,7 +499,7 @@ A [Data_Intermediate/]{style="color:orange;"} {{< bi folder-fill >}} can contain
 While most scientists may be more comfortable with GUIs, the current research landscape requires the use of [scripts and code]{style="color:green;"} to ensure reproducible research results.
 :::
 
-![](images/theway.png){fig-align="center"}
+![](images/Theway.png){fig-align="center"}
 
 ::: callout-tip
 {{< bi code-square >}} Coding should be considered an [essential skill]{style="color:green;"} like other research methods.
