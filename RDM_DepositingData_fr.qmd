@@ -5,7 +5,7 @@ author:
   - name: Daniel Manrique-Castano, Ph.D
     email: daniel.manrique-castano@alliancecan.ca
     affiliations:
-      - name: Alliance de recherche numérique du Canada
+      - name: Alliance de Recherche Numérique du Canada
 
 date: last-modified
 date-format: full
