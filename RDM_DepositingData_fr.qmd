@@ -263,7 +263,7 @@ Le titre doit refléter la [nature et le contenu ]{style="text-decoration: under
 :::
 
 ::: callout-caution
-Le titre du jeu de données [NE DOIt PAS]{style="color:red;"} équivaloir au titre de l’article scientifique.
+Le titre du jeu de données [NE DOIT PAS]{style="color:red;"} équivaloir au titre de l’article scientifique.
 :::
 
 ## Description (résumé)
@@ -490,7 +490,7 @@ Bien qu'il s'agisse du type de fichier (.xls) le plus courant pour enregistrer/s
 
 Le dossier de [Data_Intermediate/]{style="color:orange;"} peut contenir des données à différents stades de traitement, ou encore un fichier d’analyse prétraité. Il peut par exemple s’agir de masques d’images ou de classifieurs d’apprentissage machine utilisés pour traiter des images.
 
-## {{< bi code-square >}} Le script est la voie à suivre 
+## {{< bi code-square >}} Le script est la voie à suivre {.center}
 
 ::: {style="text-align: left;font-size: 80%"}
 Bien que la plupart des scientifiques soient plus à l’aise avec les interfaces utilisateurs graphiques, le domaine de la recherche requiert de nos jours l’utilisation de scripts et de codes d’analyse pour assurer la reproductibilité des résultats.
@@ -504,11 +504,13 @@ Bien que la plupart des scientifiques soient plus à l’aise avec les interface
 
 ## {{< bi folder-fill >}} Scripts de traitement {.center}
 
+::: {style="text-align: left; font-size: 80%"}
 Un dossier de [Scripts_Processing]{style="color:orange;"} peut contenir les scripts ou codes utilisés pour préparer (ou transformer) les données brutes (images, tableaux) en données d’analyse :
 
 -   Éliminer des variables (réduire le jeu de données)
 -   Générer de nouvelles variables (faire des calculs, trouver la moyenne, etc.)
 -   Combiner différentes sources d’information (fusionner des tableaux ou des fichiers)
+:::
 
 ::: callout-tip
 Pensez à enregistrer les fichiers intermédiaires générés dans le dossier [Data_Intermediate/]{style="color:orange;"}.
@@ -589,7 +591,7 @@ Lorsque vous partagez des données, assurez-vous que l'ensemble de données rép
 
 ## Foire aux questions{.center}
 
-::: {style="text-align: left;font-size: 80%"}
+::: {style="text-align: left;font-size: 75%"}
 {{< bi patch-question >}} **Quand dois-je commencer à organiser mes données en vue de leur partage?**
 
 Nous recommandons d’appliquer les [pratiques exemplaires de GDR dès le début et tout au long du processus de recherche]{style="color:green;"}. il est difficile de commencer à organiser des données après des années de [gestion chaotique]{style="color:red;"}.
@@ -601,7 +603,6 @@ Vos données peuvent être partagées à [tout moment ]{style="color:green;"} du
 {{< bi patch-question >}} **Que faire si mon jeu de données ne correspond pas aux protocoles comme TIER 4?**
 
 Ce qui compte, c’est que votre jeu de données soit [soigneusement consigné et organisé de manière logique]{style="color:green;"}, , et qu’il suive une [nomenclature facile à comprendre]{style="color:green;"} pour les personnes qui souhaiteraient le réutiliser.
-
 :::
 
 ## Foire aux questions {.center}
@@ -749,12 +750,12 @@ Le DFDR bénéficie de personnel qualifié qui guide les équipes de recherche e
 
 -   [Documents du DFDR](https://www.frdr-dfdr.ca/docs/en/depositing_data/)
 -   [Guide de l'utilisateur Borealis](https://borealisdata.ca/guides/en/latest/user/)
--   [Ressources de formation de l’Alliance](https://alliancecan.ca/en/services/research-data-management/learning-and-training/training-resources) from the Alliance 
+-   [Ressources de formation de l’Alliance](https://alliancecan.ca/en/services/research-data-management/learning-and-training/training-resources)
 ::::
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 100%"}
-![Cette présentation est disponible [ici](https://github.com/Alliance-RDM-GDR/RDM_DepositingData) (anglais ou français)(images/Presentation_QR-code.png){fig-align="center" width="200" height="200"}
+![Cette présentation est disponible [ici](https://github.com/Alliance-RDM-GDR/RDM_DepositingData) (anglais ou français)](images/Presentation_QR-code.png){fig-align="center" width="200" height="200"}
 :::
 ::::
 :::::
