@@ -6,9 +6,7 @@ author:
     email: daniel.manrique-castano@alliancecan.ca
     affiliations:
       - name: Digital Research Alliance of Canada
-
-date: last-modified
-date-format: full
+      - Department: Research Data Management
 
 format: 
 
@@ -18,7 +16,7 @@ format:
       theme: forest
       
   revealjs:
-    footer: "Depositing data - Daniel Manrique-Castano, Ph.D"
+    footer: "Sharing and depositing data - Daniel Manrique-Castano, Ph.D"
     logo: "images/alliance_logo.png"
     theme: white
     transition: fade

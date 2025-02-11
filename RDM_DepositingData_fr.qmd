@@ -7,9 +7,6 @@ author:
     affiliations:
       - name: Alliance de Recherche Numérique du Canada
 
-date: last-modified
-date-format: full
-
 format: 
 
   html:
@@ -18,7 +15,7 @@ format:
       theme: forest
       
   revealjs:
-    footer: "Depositing data - Daniel Manrique-Castano, Ph.D"
+    footer: "Dépôt des données de recherche - Daniel Manrique-Castano, Ph.D"
     logo: "images/alliance_logo.png"
     theme: white
     transition: fade
@@ -496,7 +493,7 @@ Le dossier de [Data_Intermediate/]{style="color:orange;"} peut contenir des donn
 Bien que la plupart des scientifiques soient plus à l’aise avec les interfaces utilisateurs graphiques, le domaine de la recherche requiert de nos jours l’utilisation de scripts et de codes d’analyse pour assurer la reproductibilité des résultats.
 :::
 
-![](images/theway.png){fig-align="center"}
+![](images/Theway.png){fig-align="center"}
 
 ::: callout-tip
 {{< bi code-square >}} La programmation devrait être considérée comme une  [compétence essentielle]{style="color:green;"},au même titre que les autres méthodes de recherche.
