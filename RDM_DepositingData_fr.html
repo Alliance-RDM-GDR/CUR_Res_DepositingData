@@ -690,66 +690,47 @@ B --&gt; C[Rendement du capital investi]
 </div>
 </div>
 </section>
-<section id="données-entrantes" class="slide level2 center">
-<h2><i class="bi-folder-fill " style="" role="img" aria-hidden="true"></i> Données entrantes</h2>
-<p>Un dossier <span style="color:orange;">Data_Raw/</span> peut contenir :</p>
+<section id="ensembles-de-données-contenu" class="slide level2 center">
+<h2><i class="bi-diagram-2-fill " style="" role="img" aria-hidden="true"></i> Ensembles de données contenu</h2>
 <div>
 
 </div>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row quarto-layout-valign-center">
 <div id="first-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<ul>
-<li><span style="color:green;">Images</span> originales (.tiff, .czi)</li>
-<li><span style="color:green;">Fichiers des données</span> sortantes de l’appareil de mesure (.txt, .csv)</li>
-<li>Enregistrement original des <span style="color:green;">feuilles de données</span> (.png, .csv, .xlxs)</li>
-</ul>
-</div>
-<div id="second-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div style="text-align: center;font-size: 50%">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/data_raw.png" style="width:90.0%"></p>
-<figcaption>Hiérarchie des dossiers</figcaption>
+<p><img data-src="images/tier.png" style="width:25.0%"></p>
+<figcaption>Arbre de dossiers</figcaption>
 </figure>
 </div>
 </div>
 </div>
-</div>
-</div>
-</section>
-<section id="données-entrantes---métadonnées" class="slide level2 center">
-<h2>Données entrantes - métadonnées</h2>
-<p>Inclure des métadonnées/ qui permettent de comprendre le contenu du fichier et de le réutiliser :</p>
-<ul>
-<li><p><i class="bi-file-earmark-font-fill " style="" role="img" aria-hidden="true"></i> Détails méthodologiques et techniques.</p></li>
-<li><p><i class="bi-file-earmark-font-fill " style="" role="img" aria-hidden="true"></i> Des livres de codes ou dictionnaires de données qui expliquent les variables et les unités. Il peut s’agir de fichiers <a href="https://osf.io/9n3gh">TXT</a> ou <a href="https://osf.io/925sh">CSV-XLXS</a>.</p></li>
-<li><p><i class="bi-filetype-tiff " style="" role="img" aria-hidden="true"></i> Paramètres de l’instrument et de l’acquisition des images.</p></li>
-</ul>
-</section>
-<section id="données-danalyse" class="slide level2 center">
-<h2><i class="bi-folder-fill " style="" role="img" aria-hidden="true"></i> Données d’analyse</h2>
-<p>Un dossier <span style="color:orange;">Data_Analysis/</span> contient les <span style="color:green;">fichiers traités</span> pour générer les résultats de la recherche.</p>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div id="first-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<ul>
-<li><p>Métadonnées similaires aux données brutes.</p></li>
-<li><p><span style="color:orange;">Data_Appendix</span> fichiers présentant des statistiques descriptives de base ou des distributions de données.</p></li>
-</ul>
-</div>
 <div id="second-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div style="text-align: center;font-size: 50%">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/data_processed.png" style="width:90.0%"></p>
-<figcaption>Hiérarchie des dossiers</figcaption>
-</figure>
+<div style="text-align: left;font-size: 70%">
+<p>Les données partagées comprennent:</p>
+<ul>
+<li><i class="bi-file-earmark-person-fill " style="" role="img" aria-hidden="true"></i> Données brutes</li>
+<li><i class="bi-file-earmark-text-fill " style="" role="img" aria-hidden="true"></i> Données intermédiaires et d’analyse</li>
+<li><i class="bi-code-square " style="" role="img" aria-hidden="true"></i> Scripts de traitement et d’analyse</li>
+<li><i class="bi-dropbox " style="" role="img" aria-hidden="true"></i> Résultats</li>
+<li><i class="bi-file-earmark-text-fill " style="" role="img" aria-hidden="true"></i> Fichiers README et livres de code</li>
+</ul>
 </div>
 </div>
+</div>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Consultez cette [ressource] (https://github.com/Alliance-RDM-GDR/RDM_OrganizeData) pour connaître les principes de traitement et d’organisation des données de recherche.</p>
 </div>
 </div>
 </div>
@@ -821,10 +802,6 @@ B --&gt; C[Rendement du capital investi]
 </div>
 </div>
 </section>
-<section id="données-intermédiaires-facultatif" class="slide level2 center">
-<h2><i class="bi-folder-fill " style="" role="img" aria-hidden="true"></i> Données intermédiaires (facultatif)</h2>
-<p>Le dossier de <span style="color:orange;">Data_Intermediate/</span> peut contenir des données à différents stades de traitement, ou encore un fichier d’analyse prétraité. Il peut par exemple s’agir de masques d’images ou de classifieurs d’apprentissage machine utilisés pour traiter des images.</p>
-</section>
 <section id="le-script-est-la-voie-à-suivre" class="slide level2 center">
 <h2><i class="bi-code-square " style="" role="img" aria-hidden="true"></i> Le script est la voie à suivre</h2>
 <div style="text-align: left;font-size: 80%">
@@ -845,114 +822,9 @@ B --&gt; C[Rendement du capital investi]
 </div>
 </div>
 </section>
-<section id="scripts-de-traitement" class="slide level2 center">
-<h2><i class="bi-folder-fill " style="" role="img" aria-hidden="true"></i> Scripts de traitement</h2>
-<div style="text-align: left; font-size: 80%">
-<p>Un dossier de <span style="color:orange;">Scripts_Processing</span> peut contenir les scripts ou codes utilisés pour préparer (ou transformer) les données brutes (images, tableaux) en données d’analyse :</p>
-<ul>
-<li>Éliminer des variables (réduire le jeu de données)</li>
-<li>Générer de nouvelles variables (faire des calculs, trouver la moyenne, etc.)</li>
-<li>Combiner différentes sources d’information (fusionner des tableaux ou des fichiers)</li>
-</ul>
-</div>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Tip</strong></p>
-</div>
-<div class="callout-content">
-<p>Pensez à enregistrer les fichiers intermédiaires générés dans le dossier <span style="color:orange;">Data_Intermediate/</span>.</p>
-</div>
-</div>
-</div>
-</section>
 <section id="à-retenir" class="slide level2 center">
 <h2><i class="bi-lightbulb-fill " style="" role="img" aria-hidden="true"></i> À retenir</h2>
 <p>Les <span style="color:green;">conventions de dénomination</span> logique sont essentielles pour relier les données brutes, les scripts de traitement et les données d’analyse.</p>
-</section>
-<section id="scripts-danalyse" class="slide level2">
-<h2><i class="bi-folder-fill " style="" role="img" aria-hidden="true"></i> Scripts d’analyse</h2>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div id="first-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div style="text-align: left; font-size: 80%">
-<p>Le dossier de <span style="color:orange;">Scripts_Analysis</span> comprend les scripts et les codes utilisés pour produire des résultats, sous l’une des formes suivantes:</p>
-<ul>
-<li><i class="bi-card-image " style="" role="img" aria-hidden="true"></i> Images</li>
-<li><i class="bi-file-bar-graph-fill " style="" role="img" aria-hidden="true"></i> Figures</li>
-<li><i class="bi-table " style="" role="img" aria-hidden="true"></i> Tableaux</li>
-<li><i class="bi-calculator-fill " style="" role="img" aria-hidden="true"></i> Modèles statistiques</li>
-</ul>
-</div>
-</div>
-<div id="Second-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div style="text-align: center;font-size: 50%">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/scripts_processing.png" style="width:90.0%"></p>
-<figcaption>- Arborescence de dossiers</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Tip</strong></p>
-</div>
-<div class="callout-content">
-<p>Ces scripts importent et traitent les <span style="color:orange;">données d’analyse</span>.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="un-script-maître" class="slide level2 center">
-<h2><i class="bi-code-slash " style="" role="img" aria-hidden="true"></i> Un script maître ?</h2>
-<p>Le dossier de <span style="color:orange;">Scripts/</span> peut aussi contenir un script dit <span style="color:green;">« maître »</span> qui exécute tous les autres pour créer un processus entièrement automatisé.</p>
-</section>
-<section id="dossier-de-résultats" class="slide level2 center">
-<h2><i class="bi-folder-fill " style="" role="img" aria-hidden="true"></i> Dossier de résultats</h2>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div id="first-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p>Le dossier de <span style="color:orange;">Results/</span> comprend les fichiers produits par les scripts d’analyse, sous l’une des formes suivantes:</p>
-<ul>
-<li><i class="bi-card-image " style="" role="img" aria-hidden="true"></i> Images</li>
-<li><i class="bi-file-bar-graph-fill " style="" role="img" aria-hidden="true"></i> Figures</li>
-<li><i class="bi-table " style="" role="img" aria-hidden="true"></i> Tableaux</li>
-<li><i class="bi-calculator-fill " style="" role="img" aria-hidden="true"></i> Modèles statistiques</li>
-</ul>
-</div>
-<div id="Second-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div style="text-align: center;font-size: 50%">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/output.png" style="width:100.0%"></p>
-<figcaption>Arborescence de dossiers</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="engagement-envers-la-reproductibilité" class="slide level2 center">
-<h2><i class="bi-lightbulb-fill " style="" role="img" aria-hidden="true"></i> Engagement envers la reproductibilité</h2>
-<p>Le partage des résultats des calculs est l’un des meilleurs engagements en faveur d’une <span style="color:green;">science ouverte et reproductible</span>.</p>
 </section></section>
 <section>
 <section id="liste-de-vérification-pour-la-soumission-de-données" class="title-slide slide level1 agenda-slide center">
@@ -985,13 +857,15 @@ B --&gt; C[Rendement du capital investi]
 </section>
 <section id="déposer-des-données" class="slide level2 center">
 <h2><i class="bi-card-checklist " style="" role="img" aria-hidden="true"></i> Déposer des données</h2>
-<p>Lorsque vous partagez des données, assurez-vous que l’ensemble de données répond à ces caractéristiques :</p>
+<div style="text-align: left;font-size: 90%">
+<p>Lorsque vous partagez des données, assurez-vous que l’ensemble de données présente les caractéristiques suivantes :</p>
 <ul>
-<li><p><i class="bi-diagram-2-fill " style="" role="img" aria-hidden="true"></i> Les dossiers et les fichiers sont <span style="color:green;">clairement structurés</span>.</p></li>
-<li><p><i class="bi-file-earmark-text-fill " style="" role="img" aria-hidden="true"></i> Les fichiers et les dossiers ont des <span style="color:green;">Conventions de dénomination</span> cohérentes.</p></li>
-<li><p><i class="bi-file-earmark-text-fill " style="" role="img" aria-hidden="true"></i> Les formats de <span style="color:green;">fichiers ouverts</span> (par exemple CSV, TIFF) facilitent l’ouverture et la réutilisation des données.</p></li>
-<li><p><i class="bi-file-earmark-text-fill " style="" role="img" aria-hidden="true"></i> Le fichier <span style="color:green;">README</span> contient <span style="text-decoration: underline;">suffisamment d’informations</span> pour comprendre la nature, le contenu et l’origine des données.</p></li>
+<li><p><i class="bi-diagram-2-fill " style="" role="img" aria-hidden="true"></i> Les dossiers et les fichiers sont <span style="color:green ;">clairement structurés</span>.</p></li>
+<li><p><i class="bi-file-earmark-text-fill " style="" role="img" aria-hidden="true"></i> Les fichiers et les dossiers ont des <span style="color:green ;">conventions de dénomination</span> cohérentes.</p></li>
+<li><p><i class="bi-file-earmark-text-fill " style="" role="img" aria-hidden="true"></i> Les <span style="color:green ;">formats de fichiers ouverts</span> (par exemple, CSV, TIFF) facilitent l’ouverture et la réutilisation des données.</p></li>
+<li><p><i class="bi-file-earmark-text-fill " style="" role="img" aria-hidden="true"></i> Le fichier <span style="color:green ;">README</span> contient <span style="text-decoration : underline ;">suffisamment d’informations</span> pour comprendre la nature, le contenu et l’origine des données.</p></li>
 </ul>
+</div>
 </section>
 <section id="foire-aux-questions" class="slide level2 center">
 <h2>Foire aux questions</h2>

@@ -392,52 +392,33 @@ Le modèle systémique [TIER 4.0](https://www.projecttier.org/tier-protocol/prot
 ::::
 :::::
 
-## {{< bi folder-fill >}} Données entrantes {.center}
-
-Un dossier [Data_Raw/]{style="color:orange;"} peut contenir :
+## {{< bi diagram-2-fill >}} Ensembles de données contenu{.center}
 
 ::::: {layout-ncol="2" layout-valign="center"}
 :::: {#first-column}
-- [Images]{style="color:green;"} originales (.tiff, .czi)
-- [Fichiers des données]{style="color:green;"} sortantes de l’appareil de mesure  (.txt, .csv)
-- Enregistrement original des [feuilles de données]{style="color:green;"} (.png, .csv, .xlxs)
+::: {style="text-align: center;font-size: 50%"}
+![Arbre de dossiers](images/tier.png){width="25%"}
+:::
 ::::
 
 :::: {#second-column}
-::: {style="text-align: center;font-size: 50%"}
-![Hiérarchie des dossiers](images/data_raw.png){width="90%"}
+::: {style="text-align: left;font-size: 70%"}
+
+Les données partagées comprennent:
+
+- {{< bi file-earmark-person-fill>}} Données brutes
+- {{< bi file-earmark-text-fill >}} Données intermédiaires et d'analyse
+- {{< bi code-square >}} Scripts de traitement et d'analyse
+- {{< bi dropbox>}} Résultats
+- {{< bi file-earmark-text-fill >}} Fichiers README et livres de code
 :::
 ::::
 :::::
 
-## Données entrantes - métadonnées {.center}
-
-Inclure des métadonnées/ qui permettent de comprendre le contenu du fichier et de le réutiliser :
-
--   {{< bi file-earmark-font-fill >}} Détails méthodologiques et techniques.
-
--  {{< bi file-earmark-font-fill >}} Des livres de codes ou dictionnaires de données qui expliquent les variables et les unités. Il peut s'agir de fichiers [TXT](https://osf.io/9n3gh) ou [CSV-XLXS](https://osf.io/925sh).
-
-- {{< bi filetype-tiff >}} Paramètres de l'instrument et de l'acquisition des images.
-
-## {{< bi folder-fill >}} Données d’analyse {.center}
-
-Un dossier [Data_Analysis/]{style="color:orange;"} contient les [fichiers traités]{style="color:green;"} pour générer les résultats de la recherche.
-
-::::: {layout-ncol="2"}
-:::: {#first-column}
-
-- Métadonnées similaires aux données brutes.
-
-- [Data_Appendix]{style="color:orange;"} fichiers présentant des statistiques descriptives de base ou des distributions de données.
-::::
-
-:::: {#second-column}
-::: {style="text-align: center;font-size: 50%"}
-![Hiérarchie des dossiers](images/data_processed.png){width="90%"}
+::: callout-tip 
+Consultez cette [ressource] (https://github.com/Alliance-RDM-GDR/RDM_OrganizeData) pour connaître les principes de traitement et d'organisation des données de recherche.
 :::
-::::
-:::::
+
 
 ## {{< bi backspace-reverse-fill>}} Attention aux tableaux mal formatés {.center}
 
@@ -483,10 +464,6 @@ Bien qu'il s'agisse du type de fichier (.xls) le plus courant pour enregistrer/s
 :::::
 
 
-## {{< bi folder-fill >}} Données intermédiaires (facultatif) {.center}
-
-Le dossier de [Data_Intermediate/]{style="color:orange;"} peut contenir des données à différents stades de traitement, ou encore un fichier d’analyse prétraité. Il peut par exemple s’agir de masques d’images ou de classifieurs d’apprentissage machine utilisés pour traiter des images.
-
 ## {{< bi code-square >}} Le script est la voie à suivre {.center}
 
 ::: {style="text-align: left;font-size: 80%"}
@@ -499,92 +476,25 @@ Bien que la plupart des scientifiques soient plus à l’aise avec les interface
 {{< bi code-square >}} La programmation devrait être considérée comme une  [compétence essentielle]{style="color:green;"},au même titre que les autres méthodes de recherche.
 :::
 
-## {{< bi folder-fill >}} Scripts de traitement {.center}
-
-::: {style="text-align: left; font-size: 80%"}
-Un dossier de [Scripts_Processing]{style="color:orange;"} peut contenir les scripts ou codes utilisés pour préparer (ou transformer) les données brutes (images, tableaux) en données d’analyse :
-
--   Éliminer des variables (réduire le jeu de données)
--   Générer de nouvelles variables (faire des calculs, trouver la moyenne, etc.)
--   Combiner différentes sources d’information (fusionner des tableaux ou des fichiers)
-:::
-
-::: callout-tip
-Pensez à enregistrer les fichiers intermédiaires générés dans le dossier [Data_Intermediate/]{style="color:orange;"}.
-:::
-
-
 ## {{< bi lightbulb-fill >}} À retenir {.center}
 
 Les [conventions de dénomination]{style="color:green;"} logique sont essentielles pour relier les données brutes, les scripts de traitement et les données d'analyse.
-
-
-## {{< bi folder-fill >}} Scripts d’analyse 
-
-::::: {layout-ncol="2"}
-:::: {#first-column}
-::: {style="text-align: left; font-size: 80%"}
-Le dossier de [Scripts_Analysis]{style="color:orange;"} comprend les scripts et les codes utilisés pour produire des résultats, sous l’une des formes suivantes:
-
--   {{< bi card-image >}} Images
--   {{< bi file-bar-graph-fill >}} Figures
--   {{< bi table >}} Tableaux
--   {{< bi calculator-fill >}} Modèles statistiques
-:::
-::::
-
-:::: {#Second-column}
-::: {style="text-align: center;font-size: 50%"}
-![-	Arborescence de dossiers](images/scripts_processing.png){width="90%"}
-:::
-::::
-:::::
-
-::: callout-tip
-Ces scripts importent et traitent les [données d'analyse]{style="color:orange;"}.
-:::
-
-## {{< bi code-slash >}} Un script maître ?{.center}
-
-Le dossier de [Scripts/]{style="color:orange;"} peut aussi contenir un script dit [« maître »]{style="color:green;"} qui exécute tous les autres pour créer un processus entièrement automatisé.
-
-## {{< bi folder-fill >}} Dossier de résultats {.center}
-
-::::: {layout-ncol="2"}
-:::: {#first-column}
-
-Le dossier de [Results/]{style="color:orange;"} comprend les fichiers produits par les scripts d’analyse, sous l’une des formes suivantes:
-
--   {{< bi card-image >}} Images
--   {{< bi file-bar-graph-fill >}} Figures
--   {{< bi table >}} Tableaux
--   {{< bi calculator-fill >}} Modèles statistiques
-::::
-
-:::: {#Second-column}
-::: {style="text-align: center;font-size: 50%"}
-![Arborescence de dossiers](images/output.png){width="100%"}
-:::
-::::
-:::::
-
-## {{< bi lightbulb-fill >}} Engagement envers la reproductibilité {.center}
-
-Le partage des résultats des calculs est l'un des meilleurs engagements en faveur d'une [science ouverte et reproductible]{style="color:green;"}.
 
 # Liste de vérification pour la soumission de données
 
 ## {{< bi card-checklist >}} Déposer des données{.center} 
 
-Lorsque vous partagez des données, assurez-vous que l'ensemble de données répond à ces caractéristiques :
+::: {style="text-align: left;font-size: 90%"}
+Lorsque vous partagez des données, assurez-vous que l'ensemble de données présente les caractéristiques suivantes :
 
-- {{< bi diagram-2-fill >}} Les dossiers et les fichiers sont [clairement structurés]{style="color:green;"}.
+- {{< bi diagram-2-fill >}} Les dossiers et les fichiers sont [clairement structurés ]{style="color:green ;"}.
 
-- {{< bi file-earmark-text-fill >}} Les fichiers et les dossiers ont des [Conventions de dénomination]{style="color:green;"} cohérentes.
+- {{< bi file-earmark-text-fill >}} Les fichiers et les dossiers ont des [conventions de dénomination]{style="color:green ;"} cohérentes.
 
-- {{< bi file-earmark-text-fill >}} Les formats de [fichiers ouverts]{style="color:green;"} (par exemple CSV, TIFF) facilitent l'ouverture et la réutilisation des données.
+- {{< bi file-earmark-text-fill >}} Les [formats de fichiers ouverts]{style="color:green ;"} (par exemple, CSV, TIFF) facilitent l'ouverture et la réutilisation des données.
 
-- {{< bi file-earmark-text-fill >}} Le fichier [README]{style="color:green;"} contient [suffisamment d'informations]{style="text-decoration: underline;"} pour comprendre la nature, le contenu et l'origine des données.
+- {{< bi file-earmark-text-fill >}} Le fichier [README]{style="color:green ;"} contient [suffisamment d'informations]{style="text-decoration : underline ;"} pour comprendre la nature, le contenu et l'origine des données.
+:::
 
 ## Foire aux questions{.center}
 
