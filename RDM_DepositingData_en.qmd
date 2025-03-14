@@ -385,7 +385,6 @@ Overall, ensure that the dataset structure is [logical and consistent]{style="co
 [TIER 4.0](https://www.projecttier.org/tier-protocol/protocol-4-0/root/) is a [project template]{style="color:green;"} to standardize datasets.
 
 [Download](https://github.com/Alliance-RDM-GDR/RDM_DepositingData/blob/main/resources/TIER4.0_DatasetTemplate.zip) the project structure and adapt it to specific cases.
-
 ::::
 
 :::: {#second-column}
@@ -395,54 +394,33 @@ Overall, ensure that the dataset structure is [logical and consistent]{style="co
 ::::
 :::::
 
-## {{< bi folder-fill >}} Raw data {.center}
-
-A [Data_Raw/]{style="color:orange;"} folder can contain:
+## {{< bi diagram-2-fill >}} Datasets content{.center}
 
 ::::: {layout-ncol="2" layout-valign="center"}
 :::: {#first-column}
-
--   Original [images]{style="color:green;"} (.tiff, .czi)
--   Measuring device [output files]{style="color:green;"} (.txt, .csv)
--   Original registration [datasheets]{style="color:green;"} (.png, .csv, .xlxs)
+::: {style="text-align: center;font-size: 50%"}
+![Folder tree](images/tier.png){width="25%"}
+:::
 ::::
 
 :::: {#second-column}
-::: {style="text-align: center;font-size: 50%"}
-![Folder tree](images/data_raw.png){width="90%"}
+::: {style="text-align: left;font-size: 70%"}
+
+Shared data includes:
+
+- {{< bi file-earmark-person-fill>}} Raw data
+- {{< bi file-earmark-text-fill >}} Intermediate and analysis data
+- {{< bi code-square >}} Processing and analysis scripts
+- {{< bi dropbox>}} Output/results
+- {{< bi file-earmark-text-fill >}} README files and codebooks
 :::
 ::::
 :::::
 
-## Raw Data - metadata {.center}
-
-Include [metadata/]{style="color:orange;"} that allows the file contents to be understood and reused:
-
-- {{< bi file-earmark-font-fill >}} Methodological and technical details.
-
-- {{< bi file-earmark-font-fill >}} Codebooks / data dictionaries that explain variables and units. They can be [.txt](https://osf.io/9n3gh) or [.csv-xlxs](https://osf.io/925sh) files.
-
-- {{< bi filetype-tiff >}} Instrument and acquisition parameters for images.
-
-## {{< bi folder-fill >}} Analysis (processed) data {.center}
-
-A [Data_Analysis/]{style="color:orange;"} folder contains [processed files]{style="color:green;"} to generate the research results.
-
-::::: {layout-ncol="2"}
-:::: {#first-column}
-
-- Metadata similar to raw data.
-
-- [Data_Appendix]{style="color:green;"} files showing basic descriptive statistics or data distributions.
-
-::::
-
-:::: {#second-column}
-::: {style="text-align: center;font-size: 50%"}
-![Folder tree](images/data_processed.png){width="90%"}
+::: callout-tip 
+Visit this [resource](https://github.com/Alliance-RDM-GDR/RDM_OrganizeData) for principles on handling and organizing research data.
 :::
-::::
-:::::
+
 
 ## {{< bi backspace-reverse-fill>}} Beware of poorly formatted tables {.center}
 
@@ -486,11 +464,6 @@ Despite being the most common file type (.xls) for recording/storing data, table
 ::::
 :::::
 
-
-## {{< bi folder-fill >}} Intermediate data (Optional) {.center}
-
-A [Data_Intermediate/]{style="color:orange;"} {{< bi folder-fill >}} can contain intermediate processed data, or pre-processed files as part of an analysis pipeline. For example, image 'masks' and machine learning classifiers that are used to further process images.
-
 ## {{< bi code-square >}} Scripting is the way 
 
 ::: {style="text-align: left;font-size: 80%"}
@@ -503,75 +476,10 @@ While most scientists may be more comfortable with GUIs, the current research la
 {{< bi code-square >}} Coding should be considered an [essential skill]{style="color:green;"} like other research methods.
 :::
 
-## {{< bi folder-fill >}} Processing scripts {.center}
-
-A [Scripts_Processing]{style="color:orange;"} folder contains code to transform the raw data for analysis:
-
--   Drop variables (subset the dataset)
--   Generate new variables (Perform computations, calculate averages, etc.)
--   Combine different sources of information (merge tables or files)
-
-::: callout-tip
-Consider saving the generated intermediate files in the [Data_Intermediate/]{style="color:orange;"} folder.
-:::
-
-
 ## {{< bi lightbulb-fill >}} Keep in mind {.center}
 
 [Logical naming conventions]{style="color:green;"} are the key to linking the raw data, processing scripts, and analysis data.
 
-## {{< bi folder-fill >}} Analysis scripts 
-
-::::: {layout-ncol="2"}
-:::: {#first-column}
-::: {style="text-align: left; font-size: 80%"}
-The [Scripts_Analysis]{style="color:orange;"} folder hosts code to generate results that may be in the form of:
-
--   {{< bi card-image >}} Images
--   {{< bi file-bar-graph-fill >}} Figures
--   {{< bi table >}} Tables
--   {{< bi calculator-fill >}} Statistical models
-:::
-::::
-
-:::: {#Second-column}
-::: {style="text-align: center;font-size: 50%"}
-![Folder tree](images/scripts_processing.png){width="90%"}
-:::
-::::
-:::::
-
-::: callout-tip
-These scripts import and process the [analysis data]{style="color:orange;"}.
-:::
-
-## {{< bi code-slash >}} A master script? {.center}
-
-The [Scripts/]{style="color:orange;"} folder can also contain a [master script]{style="color:green;"} that executes all other scripts, creating a fully automated pipeline.
-
-## {{< bi folder-fill >}} The Results folder {.center}
-
-::::: {layout-ncol="2"}
-:::: {#first-column}
-
-The [Results/]{style="color:orange;"} folder contains files generated by the analysis scripts in the form of:
-
--   {{< bi card-image >}} Images
--   {{< bi file-bar-graph-fill >}} Figures
--   {{< bi table >}} Tables
--   {{< bi calculator-fill >}} Statistical models
-::::
-
-:::: {#Second-column}
-::: {style="text-align: center;font-size: 50%"}
-![Folder tree](images/output.png){width="100%"}
-:::
-::::
-:::::
-
-## {{< bi lightbulb-fill >}} Commitment to reproducibility {.center}
-
-Sharing the output resulting from computations is one of the best commitments to [open and reproducible science]{style="color:green;"}.
 
 # Data submission checklist
 

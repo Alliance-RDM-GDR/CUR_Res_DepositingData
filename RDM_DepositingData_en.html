@@ -693,66 +693,47 @@ B--&gt; C["Return on investment"]
 </div>
 </div>
 </section>
-<section id="raw-data" class="slide level2 center">
-<h2><i class="bi-folder-fill " style="" role="img" aria-hidden="true"></i> Raw data</h2>
-<p>A <span style="color:orange;">Data_Raw/</span> folder can contain:</p>
+<section id="datasets-content" class="slide level2 center">
+<h2><i class="bi-diagram-2-fill " style="" role="img" aria-hidden="true"></i> Datasets content</h2>
 <div>
 
 </div>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row quarto-layout-valign-center">
 <div id="first-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<ul>
-<li>Original <span style="color:green;">images</span> (.tiff, .czi)</li>
-<li>Measuring device <span style="color:green;">output files</span> (.txt, .csv)</li>
-<li>Original registration <span style="color:green;">datasheets</span> (.png, .csv, .xlxs)</li>
-</ul>
-</div>
-<div id="second-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div style="text-align: center;font-size: 50%">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/data_raw.png" style="width:90.0%"></p>
+<p><img data-src="images/tier.png" style="width:25.0%"></p>
 <figcaption>Folder tree</figcaption>
 </figure>
 </div>
 </div>
 </div>
-</div>
-</div>
-</section>
-<section id="raw-data---metadata" class="slide level2 center">
-<h2>Raw Data - metadata</h2>
-<p>Include <span style="color:orange;">metadata/</span> that allows the file contents to be understood and reused:</p>
-<ul>
-<li><p><i class="bi-file-earmark-font-fill " style="" role="img" aria-hidden="true"></i> Methodological and technical details.</p></li>
-<li><p><i class="bi-file-earmark-font-fill " style="" role="img" aria-hidden="true"></i> Codebooks / data dictionaries that explain variables and units. They can be <a href="https://osf.io/9n3gh">.txt</a> or <a href="https://osf.io/925sh">.csv-xlxs</a> files.</p></li>
-<li><p><i class="bi-filetype-tiff " style="" role="img" aria-hidden="true"></i> Instrument and acquisition parameters for images.</p></li>
-</ul>
-</section>
-<section id="analysis-processed-data" class="slide level2 center">
-<h2><i class="bi-folder-fill " style="" role="img" aria-hidden="true"></i> Analysis (processed) data</h2>
-<p>A <span style="color:orange;">Data_Analysis/</span> folder contains <span style="color:green;">processed files</span> to generate the research results.</p>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div id="first-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<ul>
-<li><p>Metadata similar to raw data.</p></li>
-<li><p><span style="color:green;">Data_Appendix</span> files showing basic descriptive statistics or data distributions.</p></li>
-</ul>
-</div>
 <div id="second-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div style="text-align: center;font-size: 50%">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/data_processed.png" style="width:90.0%"></p>
-<figcaption>Folder tree</figcaption>
-</figure>
+<div style="text-align: left;font-size: 70%">
+<p>Shared data includes:</p>
+<ul>
+<li><i class="bi-file-earmark-person-fill " style="" role="img" aria-hidden="true"></i> Raw data</li>
+<li><i class="bi-file-earmark-text-fill " style="" role="img" aria-hidden="true"></i> Intermediate and analysis data</li>
+<li><i class="bi-code-square " style="" role="img" aria-hidden="true"></i> Processing and analysis scripts</li>
+<li><i class="bi-dropbox " style="" role="img" aria-hidden="true"></i> Output/results</li>
+<li><i class="bi-file-earmark-text-fill " style="" role="img" aria-hidden="true"></i> README files and codebooks</li>
+</ul>
 </div>
 </div>
+</div>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Visit this <a href="https://github.com/Alliance-RDM-GDR/RDM_OrganizeData">resource</a> for principles on handling and organizing research data.</p>
 </div>
 </div>
 </div>
@@ -824,10 +805,6 @@ B--&gt; C["Return on investment"]
 </div>
 </div>
 </section>
-<section id="intermediate-data-optional" class="slide level2 center">
-<h2><i class="bi-folder-fill " style="" role="img" aria-hidden="true"></i> Intermediate data (Optional)</h2>
-<p>A <span style="color:orange;">Data_Intermediate/</span> <i class="bi-folder-fill " style="" role="img" aria-hidden="true"></i> can contain intermediate processed data, or pre-processed files as part of an analysis pipeline. For example, image ‘masks’ and machine learning classifiers that are used to further process images.</p>
-</section>
 <section id="scripting-is-the-way" class="slide level2">
 <h2><i class="bi-code-square " style="" role="img" aria-hidden="true"></i> Scripting is the way</h2>
 <div style="text-align: left;font-size: 80%">
@@ -848,112 +825,9 @@ B--&gt; C["Return on investment"]
 </div>
 </div>
 </section>
-<section id="processing-scripts" class="slide level2 center">
-<h2><i class="bi-folder-fill " style="" role="img" aria-hidden="true"></i> Processing scripts</h2>
-<p>A <span style="color:orange;">Scripts_Processing</span> folder contains code to transform the raw data for analysis:</p>
-<ul>
-<li>Drop variables (subset the dataset)</li>
-<li>Generate new variables (Perform computations, calculate averages, etc.)</li>
-<li>Combine different sources of information (merge tables or files)</li>
-</ul>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Tip</strong></p>
-</div>
-<div class="callout-content">
-<p>Consider saving the generated intermediate files in the <span style="color:orange;">Data_Intermediate/</span> folder.</p>
-</div>
-</div>
-</div>
-</section>
 <section id="keep-in-mind" class="slide level2 center">
 <h2><i class="bi-lightbulb-fill " style="" role="img" aria-hidden="true"></i> Keep in mind</h2>
 <p><span style="color:green;">Logical naming conventions</span> are the key to linking the raw data, processing scripts, and analysis data.</p>
-</section>
-<section id="analysis-scripts" class="slide level2">
-<h2><i class="bi-folder-fill " style="" role="img" aria-hidden="true"></i> Analysis scripts</h2>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div id="first-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div style="text-align: left; font-size: 80%">
-<p>The <span style="color:orange;">Scripts_Analysis</span> folder hosts code to generate results that may be in the form of:</p>
-<ul>
-<li><i class="bi-card-image " style="" role="img" aria-hidden="true"></i> Images</li>
-<li><i class="bi-file-bar-graph-fill " style="" role="img" aria-hidden="true"></i> Figures</li>
-<li><i class="bi-table " style="" role="img" aria-hidden="true"></i> Tables</li>
-<li><i class="bi-calculator-fill " style="" role="img" aria-hidden="true"></i> Statistical models</li>
-</ul>
-</div>
-</div>
-<div id="Second-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div style="text-align: center;font-size: 50%">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/scripts_processing.png" style="width:90.0%"></p>
-<figcaption>Folder tree</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Tip</strong></p>
-</div>
-<div class="callout-content">
-<p>These scripts import and process the <span style="color:orange;">analysis data</span>.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="a-master-script" class="slide level2 center">
-<h2><i class="bi-code-slash " style="" role="img" aria-hidden="true"></i> A master script?</h2>
-<p>The <span style="color:orange;">Scripts/</span> folder can also contain a <span style="color:green;">master script</span> that executes all other scripts, creating a fully automated pipeline.</p>
-</section>
-<section id="the-results-folder" class="slide level2 center">
-<h2><i class="bi-folder-fill " style="" role="img" aria-hidden="true"></i> The Results folder</h2>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div id="first-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p>The <span style="color:orange;">Results/</span> folder contains files generated by the analysis scripts in the form of:</p>
-<ul>
-<li><i class="bi-card-image " style="" role="img" aria-hidden="true"></i> Images</li>
-<li><i class="bi-file-bar-graph-fill " style="" role="img" aria-hidden="true"></i> Figures</li>
-<li><i class="bi-table " style="" role="img" aria-hidden="true"></i> Tables</li>
-<li><i class="bi-calculator-fill " style="" role="img" aria-hidden="true"></i> Statistical models</li>
-</ul>
-</div>
-<div id="Second-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div style="text-align: center;font-size: 50%">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/output.png" style="width:100.0%"></p>
-<figcaption>Folder tree</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="commitment-to-reproducibility" class="slide level2 center">
-<h2><i class="bi-lightbulb-fill " style="" role="img" aria-hidden="true"></i> Commitment to reproducibility</h2>
-<p>Sharing the output resulting from computations is one of the best commitments to <span style="color:green;">open and reproducible science</span>.</p>
 </section></section>
 <section>
 <section id="data-submission-checklist" class="title-slide slide level1 agenda-slide center">
