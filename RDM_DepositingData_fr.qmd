@@ -15,7 +15,7 @@ format:
       theme: forest
       
   revealjs:
-    footer: "Dépôt des données de recherche - Daniel Manrique-Castano, Ph.D"
+    footer: "Dépôt des données de recherche - Équipe de curation des données du DFDR"
     logo: "images/alliance_logo.png"
     theme: white
     transition: fade
@@ -117,26 +117,26 @@ B --> C[Rendement du capital investi]
 ::::: {layout-ncol="4"}
 :::: {#first-column}
 ::: {style="text-align: center;font-size: 60%"}
-![Ordinateur d'étudiants et de post-doctorants](images/Laptop.jpg){fig-align="center" width="100%"}
+![Ordinateur d'étudiants et de post-doctorants](images/Laptop.jpg){fig-alt="Un ordinateur portable avec un écran noir posé sur une table en bois dans un café. Une tasse de café sur une soucoupe est placée à côté. En arrière-plan, une fenêtre avec un grillage laisse entrevoir des plantes à l'extérieur." fig-align="center" width="100%"}
 :::
 ::::
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 60%"}
-![Réseau d'instituts](images/Network.jpg){fig-align="center" width="100%"}
+![Réseau d'instituts](images/Network.jpg){fig-alt="Un gros plan d'un commutateur réseau avec plusieurs câbles Ethernet branchés. Les câbles orange et bleus sont soigneusement organisés et connectés au commutateur. Une étiquette avec le texte 'NorthC' est visible dans le coin supérieur droit de l'appareil." fig-align="center" width="100%"}
 :::
 ::::
 
 :::: {#third-column}
 ::: {style="text-align: center;font-size: 60%"}
-![Le nuage (Google drive)](images/Cloud.jpg){fig-align="center" width="100%"}
+![Le nuage (Google drive)](images/Cloud.jpg){fig-alt="Une vue sereine du ciel rempli de nuages blancs et moelleux s'étendant à l'horizon. La partie supérieure de l'image présente un dégradé de bleu, passant du foncé au clair à mesure qu'il rejoint les nuages." fig-align="center" width="100%"}
 :::
 ::::
 
 :::: {#forth-column}
 ::: {style="text-align: center;font-size: 60%"}
 
-![Grappe de calcul haute performance](images/HighCompuating.jpg){fig-align="center" width="100%"}
+![Grappe de calcul haute performance](images/HighCompuating.jpg){fig-alt="Un centre de calcul haute performance avec plusieurs baies de serveurs noires étiquetées 'imgIX.' La salle est équipée de systèmes de gestion des câbles suspendus et d'infrastructures de refroidissement. L'environnement est propre et organisé, avec un câblage bien disposé et du matériel informatique de pointe." fig-align="center" width="100%"}
 :::
 ::::
 :::::
@@ -155,7 +155,7 @@ B --> C[Rendement du capital investi]
 
 :::: {#second-column}
 ::: {style="text-align: center; font-size: 70%"}
-![Les chercheurs ne partagent pas leurs données](images/NoData.png){fig-align="center" width="800" height="150"}
+![Les chercheurs ne partagent pas leurs données](images/NoData.png){fig-alt="Une capture d'écran d'un extrait d'article de Nature intitulé 'Many researchers say they'll share data — but don't.' L'extrait indique que seulement 14 % des auteurs contactés ont répondu aux demandes de données par e-mail, et seulement 6,7 % ont effectivement partagé leurs données. L'article est écrit par C Watson et a été publié en 2022." fig-align="center" width="800" height="150"}
 
 ::::
 :::::
@@ -350,13 +350,13 @@ Un jeu de données [structuré]{style="color:green;"} est la clé pour le compre
 ::::: {layout-ncol="2"}
 :::: {#first-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Tiré de pexels.com](images/Matryoska.jpeg)
+![Tiré de pexels.com](images/Matryoska.jpeg){fig-alt="Un étalage de poupées russes traditionnelles Matriochkas, également appelées poupées gigognes, peintes dans des couleurs vives."}
 :::
 ::::
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Structure du fichier](images/files.png){width="75%"}
+![Structure du fichier](images/files.png){fig-alt="Un arbre de répertoires structuré représentant un projet de recherche organisé. Les dossiers de premier niveau incluent 'Code,' contenant des scripts R pour le nettoyage et l'analyse des données ('clean_raw_data.r,' 'analysis_1.r,' 'analysis_2.r'); 'Data,' divisé en 'Raw_data' (avec les fichiers bruts 'file_a.raw' et 'file_b.raw') et 'Processed_data' (contenant les fichiers CSV nettoyés 'file_a.csv' et 'file_b.csv'); 'Outputs,' qui comprend des sous-dossiers pour 'Figures' et 'Models'; ainsi qu'un fichier 'README.txt'. Cette organisation suit les bonnes pratiques pour la gestion des données de recherche." width="75%"}
 :::
 ::::
 :::::
@@ -387,7 +387,7 @@ Le modèle systémique [TIER 4.0](https://www.projecttier.org/tier-protocol/prot
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Hiérarchie des dossiers](images/tier.png){width="40%"}
+![Hiérarchie des dossiers](images/tier.png){fig-alt="Une structure de répertoires hiérarchique suivant le protocole TIER 4.0 pour l'organisation des données de recherche. Le dossier racine 'Project/' contient des documents clés tels que 'The Read Me File' et 'The Report.' Le dossier 'Data/' est divisé en 'InputData/' (avec les sous-dossiers 'Input Data Files' et 'Metadata,' incluant 'Data Sources Guide' et 'Codebooks'), 'AnalysisData/' (avec 'Analysis Data Files' et 'The Data Appendix') et 'IntermediateData/'. Le dossier 'Scripts/' comprend des sous-dossiers pour 'ProcessingScripts/', 'DataAppendixScripts/', 'AnalysisScripts/', ainsi que 'The Master Script.' Enfin, le dossier 'Output/' contient 'DataAppendixOutput' et 'Results.' Cette organisation garantit la transparence et la reproductibilité dans la gestion des données de recherche." width="40%"}
 :::
 ::::
 :::::
@@ -397,7 +397,7 @@ Le modèle systémique [TIER 4.0](https://www.projecttier.org/tier-protocol/prot
 ::::: {layout-ncol="2" layout-valign="center"}
 :::: {#first-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Arbre de dossiers](images/tier.png){width="25%"}
+![Arbre de dossiers](images/tier.png){fig-alt="Une structure de répertoires hiérarchique suivant le protocole TIER 4.0 pour l'organisation des données de recherche. Le dossier racine 'Project/' contient des documents clés tels que 'The Read Me File' et 'The Report.' Le dossier 'Data/' est divisé en 'InputData/' (avec les sous-dossiers 'Input Data Files' et 'Metadata,' incluant 'Data Sources Guide' et 'Codebooks'), 'AnalysisData/' (avec 'Analysis Data Files' et 'The Data Appendix') et 'IntermediateData/'. Le dossier 'Scripts/' comprend des sous-dossiers pour 'ProcessingScripts/', 'DataAppendixScripts/', 'AnalysisScripts/', ainsi que 'The Master Script.' Enfin, le dossier 'Output/' contient 'DataAppendixOutput' et 'Results.' Cette organisation garantit la transparence et la reproductibilité dans la gestion des données de recherche." width="25%"}
 :::
 ::::
 
@@ -416,7 +416,7 @@ Les données partagées comprennent:
 :::::
 
 ::: callout-tip 
-Consultez cette [ressource] (https://github.com/Alliance-RDM-GDR/RDM_OrganizeData) pour connaître les principes de traitement et d'organisation des données de recherche.
+Consultez cette [ressource](https://github.com/Alliance-RDM-GDR/RDM_OrganizeData) pour connaître les principes de traitement et d'organisation des données de recherche.
 :::
 
 
@@ -429,13 +429,13 @@ Bien qu'il s'agisse du type de fichier (.xls) le plus courant pour enregistrer/s
 ::::: {layout-ncol="2"}
 :::: {#first-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Sur https://dansteer.wordpress.com/](images/BadTable1.webp){fig-align="center" width="600" height="300"}
+![Sur https://dansteer.wordpress.com/](images/BadTable1.webp){fig-alt="Exemple de mauvais formatage de données, illustrant une feuille de calcul avec des cellules combinées et des variables différentes dans la même colonne." fig-align="center" width="600" height="300"}
 :::
 ::::
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Avec l'aimable autorisation du chercheur](images/BadTable2.png){fig-align="center" width="600" height="300"}
+![Avec l'aimable autorisation du chercheur](images/BadTable2.png){fig-alt="Exemple de mauvais formatage des données, présentant une feuille de calcul avec des cellules combinées et des variables différentes dans la même colonne. On peut également observer une combinaison de chiffres et de données numériques dans la même feuille." fig-align="center" width="600" height="300"}
 :::
 ::::
 :::::
@@ -445,7 +445,7 @@ Bien qu'il s'agisse du type de fichier (.xls) le plus courant pour enregistrer/s
 ::::: {layout-ncol="2" layout-valign="center"}
 :::: {#first-column}
 ::: {style="text-align: center;font-size: 60%"} 
-![Un tableau de données de format long typique organise les informations en lignes et en colonnes](images/GoodTable.png){fig-align="left" width="500" height="300"}
+![Un tableau de données de format long typique organise les informations en lignes et en colonnes](images/GoodTable.png){fig-alt="Un tableau bien structuré affichant des données expérimentales pour différentes souris. Les colonnes incluent 'MouseID,' 'DPI' (jours après la lésion), 'Condition' (MCAO), 'Région' (Contra, Ipsi, Peri), ainsi que les comptages cellulaires pour NeuN, Ki67 et BrdU. La colonne 'MouseID' est surlignée en orange pour la distinguer visuellement. Ce tableau illustre une organisation claire des données, essentielle pour leur analyse en recherche." fig-align="left" width="500" height="300"}
 :::
 ::::
 
@@ -470,7 +470,7 @@ Bien qu'il s'agisse du type de fichier (.xls) le plus courant pour enregistrer/s
 Bien que la plupart des scientifiques soient plus à l’aise avec les interfaces utilisateurs graphiques, le domaine de la recherche requiert de nos jours l’utilisation de scripts et de codes d’analyse pour assurer la reproductibilité des résultats.
 :::
 
-![](images/Theway.png){fig-align="center"}
+![](images/Theway.png){fig-alt="Un mème humoristique sur le thème de la Guerre des étoiles comparant différents langages de programmation. L'image est divisée en trois sections, chacune montrant un personnage de Star Wars brandissant un sabre laser. À gauche, Luke Skywalker, avec un logo de langage de programmation « R », tient un sabre laser bleu. Au centre, Kylo Ren brandit un sabre laser rouge à garde transversale portant le logo GraphPad. À droite, Mace Windu, associé au logo Python, tient un sabre laser violet. Ce mème dépeint avec humour les rôles perçus des logiciels libres dans le paysage de la recherche." fig-align="center"}
 
 ::: callout-tip
 {{< bi code-square >}} La programmation devrait être considérée comme une  [compétence essentielle]{style="color:green;"},au même titre que les autres méthodes de recherche.
@@ -593,7 +593,7 @@ Le DFDR bénéficie de personnel qualifié qui guide les équipes de recherche e
 ## Réseau Borealis au Canada{.center}
 
 ::: {style="text-align: center;font-size: 50%"}
-![Réseau Borealis au Canada](images/BorealisMap.png){fig-align="center" width="800" height="400"}
+![Réseau Borealis au Canada](images/BorealisMap.png){fig-alt="Une carte du Canada montrant les emplacements des clusters Borealis formant le réseau canadien. Les points sont répartis à travers le pays, avec une concentration dans les régions de l'est et de l'ouest, ainsi que quelques-uns dans les zones centrales et nordiques." fig-align="center" width="800" height="400"}
 :::
 
 
@@ -614,7 +614,7 @@ Le DFDR bénéficie de personnel qualifié qui guide les équipes de recherche e
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Les jeux de données de Borealis sont organisés par collections](images/BorealisCollections.png){fig-align="center" width="600" height="300"}
+![Les jeux de données de Borealis sont organisés par collections](images/BorealisCollections.png){fig-alt="Un diagramme illustrant la structure hiérarchique des collections de données. À gauche, une collection contient plusieurs ensembles de données étiquetés Dataset 1, Dataset 2 et Dataset ... À droite, une autre collection contient une sous-collection, qui inclut à son tour Dataset 1 et Dataset 2." fig-align="center" width="600" height="300"}
 :::
 ::::
 :::::
@@ -635,7 +635,7 @@ Le DFDR bénéficie de personnel qualifié qui guide les équipes de recherche e
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Visualiseur de tableaux Borealis](images/BorealisTools.png){fig-align="center" width="500" height="300"}
+![Visualiseur de tableaux Borealis](images/BorealisTools.png){fig-alt="Une capture d'écran de l'interface du dépôt de données Borealis affichant un ensemble de données d'Angus Reid Global, 2014. L'ensemble de données est intitulé Drone Awareness and Perceptions: A Three Country Study 2014. L'image montre une visualisation de la répartition des revenus avec un diagramme à barres et un tableau correspondant. Les catégories du tableau incluent des groupes de revenus tels que <$50K, $50-99K, $100K+, et DK/REF, avec leurs nombres respectifs et leurs pourcentages. L'interface comprend des options pour la tabulation croisée, les statistiques résumées et le téléchargement des données." fig-align="center" width="500" height="300"}
 :::
 ::::
 :::::
@@ -643,7 +643,7 @@ Le DFDR bénéficie de personnel qualifié qui guide les équipes de recherche e
 ## {.center}
 
 ::: {style="text-align: center;font-size: 100%"}
-![Consulter le [DFDR](https://www.frdr-dfdr.ca/repo/) or [Borealis](https://borealisdata.ca/)](images/Repositories_Logo.png){fig-align="center" width="1000" height="220"}
+![Consulter le [DFDR](https://www.frdr-dfdr.ca/repo/) or [Borealis](https://borealisdata.ca/)](images/Repositories_Logo.png){fig-alt="Logos de deux dépôts de données de recherche canadiens : FRDR (Dépôt Fédéré de Données de Recherche) et Borealis. Le logo de FRDR présente un motif géométrique de carrés jaunes formant un losange, avec le nom du dépôt en texte noir et or. Le logo de Borealis comprend une représentation artistique des aurores boréales au-dessus de montagnes et d'un lac, avec le nom du dépôt en texte blanc en gras." fig-align="center" width="1000" height="220"}
 :::
 
 
@@ -662,7 +662,7 @@ Le DFDR bénéficie de personnel qualifié qui guide les équipes de recherche e
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 100%"}
-![Cette présentation est disponible [ici](https://github.com/Alliance-RDM-GDR/RDM_DepositingData) (anglais ou français)](images/Presentation_QR-code.png){fig-align="center" width="200" height="200"}
+![Cette présentation est disponible [ici](https://github.com/Alliance-RDM-GDR/RDM_DepositingData) (anglais ou français)](images/Presentation_QR-code.png){fig-alt="Une image de code QR qui redirige vers la présentation située dans un dépôt GitHub." fig-align="center" width="200" height="200"}
 :::
 ::::
 :::::

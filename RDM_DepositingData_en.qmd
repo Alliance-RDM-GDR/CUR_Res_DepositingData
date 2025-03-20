@@ -16,7 +16,7 @@ format:
       theme: forest
       
   revealjs:
-    footer: "Sharing and depositing data - Daniel Manrique-Castano, Ph.D"
+    footer: "Sharing and depositing data - FRDR curation team"
     logo: "images/alliance_logo.png"
     theme: white
     transition: fade
@@ -117,26 +117,26 @@ B--> C["Return on investment"]
 ::::: {layout-ncol="4"}
 :::: {#first-column}
 ::: {style="text-align: center;font-size: 60%"}
-![Laptop of students and postdocs](images/Laptop.jpg){fig-align="center" width="100%"}
+![Laptop of students and postdocs](images/Laptop.jpg){fig-alt="A laptop with a black screen placed on a wooden table in a café setting. A cup of coffee on a saucer is next to it. The background has a wire mesh window with plants visible outside. " fig-align="center" fig-align="center" width="100%"}
 :::
 ::::
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 60%"}
-![Institute network](images/Network.jpg){fig-align="center" width="100%"}
+![Institute network](images/Network.jpg){fig-alt="A close-up of a network switch with multiple Ethernet cables plugged in. The cables are orange and blue, neatly organized and connected to the switch. A label with the text 'NorthC' is visible on the top right corner of the device." fig-align="center" width="100%"}
 :::
 ::::
 
 :::: {#third-column}
 ::: {style="text-align: center;font-size: 60%"}
-![The cloud (Google drive)](images/Cloud.jpg){fig-align="center" width="100%"}
+![The cloud (Google drive)](images/Cloud.jpg){fig-alt="A serene view of the sky filled with soft, fluffy white clouds stretching across the horizon. The upper part of the image shows a gradient of blue, transitioning from deep to light as it meets the clouds." fig-align="center" width="100%"}
 :::
 ::::
 
 :::: {#forth-column}
 ::: {style="text-align: center;font-size: 60%"}
 
-![HPC cluster](images/HighCompuating.jpg){fig-align="center" width="100%"}
+![HPC cluster](images/HighCompuating.jpg){fig-alt="A high-performance computing data center with multiple black server racks labeled 'imgIX.' The room is equipped with overhead cable management systems and cooling infrastructure. The environment is clean and organized, with neatly arranged cabling and state-of-the-art computing hardware. " fig-align="center" width="100%"}
 :::
 ::::
 :::::
@@ -154,7 +154,7 @@ B--> C["Return on investment"]
 
 :::: {#second-column}
 ::: {style="text-align: center; font-size: 70%"}
-![Actually, researchers generally do not share data](images/NoData.png){fig-align="center" width="800" height="150"}
+![Actually, researchers generally do not share data](images/NoData.png){fig-alt="A screenshot of a Nature article snippet titled 'Many researchers say they'll share data — but don't.' The snippet states that only 14% of contacted authors responded to email requests for data, and just 6.7% actually shared their data. The article is authored by C Watson and was published in 2022." fig-align="center" width="800" height="150"}
 
 ::::
 :::::
@@ -334,7 +334,7 @@ Typically, a [README](https://github.com/Alliance-RDM-GDR/RDM_DepositingData/blo
 
 -   {{< bi gear-fill >}} [Methods]{style="color:green;"} for data collection/generation, analysis, and experimental conditions.
 
-::: {.callout-caution collapse="true"}
+::: callout-caution 
 The dataset is an independent object. Methods and tools for data collection [MUST NOT]{style="color:red;"} be relegated to the associated research article.
 :::
 
@@ -351,13 +351,13 @@ A [structured dataset]{style="color:green;"} is the key to understanding and reu
 ::::: {layout-ncol="2"}
 :::: {#first-column}
 ::: {style="text-align: center;font-size: 50%"}
-![From pexels.com](images/Matryoska.jpeg)
+![From pexels.com](images/Matryoska.jpeg){fig-alt="A display of traditional Russian Matryoshka dolls, also known as nesting dolls, painted in vibrant colors."}
 :::
 ::::
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 50%"}
-![File structure](images/files.png){width="75%"}
+![File structure](images/files.png){fig-alt="A structured directory tree representing an organized research project folder. The top-level folders include 'Code,' containing R scripts for data cleaning and analysis 'clean_raw_data.r,' 'analysis_1.r,' 'analysis_2.r', 'Data,' which is divided into 'Raw_data' containing raw files 'file_a.raw' and 'file_b.raw' and 'Processed_data' containing cleaned CSV files 'file_a.csv' and 'file_b.csv, 'Outputs,' which includes subfolders for 'Figures' and 'Models', and a 'README.txt' file. This structure follows best practices for research data organization." width="75%"}
 :::
 ::::
 :::::
@@ -389,7 +389,7 @@ Overall, ensure that the dataset structure is [logical and consistent]{style="co
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Folder tree](images/tier.png){width="40%"}
+![Folder tree](images/tier.png){fig-alt="A hierarchical directory structure following the TIER Protocol 4.0 for research data organization. The top-level 'Project/' folder contains key documents such as 'The Read Me File' and 'The Report.' The 'Data/' folder is divided into 'InputData/' (with 'Input Data Files' and 'Metadata' subfolders, including 'Data Sources Guide' and 'Codebooks'), 'AnalysisData/' (with 'Analysis Data Files' and 'The Data Appendix'), and 'IntermediateData/'. The 'Scripts/' folder includes subfolders for 'ProcessingScripts/', 'DataAppendixScripts/', 'AnalysisScripts/', and 'The Master Script.' The 'Output/' folder contains 'DataAppendixOutput' and 'Results.' This structure ensures transparency and reproducibility in research data management." width="40%"}
 :::
 ::::
 :::::
@@ -399,7 +399,7 @@ Overall, ensure that the dataset structure is [logical and consistent]{style="co
 ::::: {layout-ncol="2" layout-valign="center"}
 :::: {#first-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Folder tree](images/tier.png){width="25%"}
+![Folder tree](images/tier.png){fig-alt="A hierarchical directory structure following the TIER Protocol 4.0 for research data organization. The top-level 'Project/' folder contains key documents such as 'The Read Me File' and 'The Report.' The 'Data/' folder is divided into 'InputData/' (with 'Input Data Files' and 'Metadata' subfolders, including 'Data Sources Guide' and 'Codebooks'), 'AnalysisData/' (with 'Analysis Data Files' and 'The Data Appendix'), and 'IntermediateData/'. The 'Scripts/' folder includes subfolders for 'ProcessingScripts/', 'DataAppendixScripts/', 'AnalysisScripts/', and 'The Master Script.' The 'Output/' folder contains 'DataAppendixOutput' and 'Results.' This structure ensures transparency and reproducibility in research data management." width="25%"}
 :::
 ::::
 
@@ -431,13 +431,13 @@ Despite being the most common file type (.xls) for recording/storing data, table
 ::::: {layout-ncol="2"}
 :::: {#first-column}
 ::: {style="text-align: center;font-size: 50%"}
-![from https://dansteer.wordpress.com/](images/BadTable1.webp){fig-align="center" width="600" height="300"}
+![from https://dansteer.wordpress.com/](images/BadTable1.webp){fig-alt="Example of bad data formatting, showcasing a spreadsheet with combined cells and different variables in the same column." fig-align="center" width="600" height="300"}
 :::
 ::::
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Courtesy of researcher](images/BadTable2.png){fig-align="center" width="600" height="300"}
+![Courtesy of researcher](images/BadTable2.png){fig-alt="Example of bad data formatting, showcasing a spreadsheet with combined cells and different variables in the same column. We can also observe a combination of figures and numeric data in the same sheet."  fig-align="center" width="600" height="300"}
 :::
 ::::
 :::::
@@ -447,7 +447,7 @@ Despite being the most common file type (.xls) for recording/storing data, table
 ::::: {layout-ncol="2" layout-valign="center"}
 :::: {#first-column}
 ::: {style="text-align: center;font-size: 60%"} 
-![A typical long-format data table organizes the information by rows and columns](images/GoodTable.png){fig-align="left" width="500" height="300"}
+![A typical long-format data table organizes the information by rows and columns](images/GoodTable.png){fig-alt="A well-structured dataset in table format, displaying experimental data for different mice. The table includes columns for 'MouseID,' 'DPI' (days post-injury), 'Condition' (MCAO), 'Region' (Contra, Ipsi, Peri), and cell counts for NeuN, Ki67, and BrdU markers. This table demonstrates a clean and organized data structure" fig-align="left" width="500" height="300"}
 :::
 ::::
 
@@ -470,7 +470,7 @@ Despite being the most common file type (.xls) for recording/storing data, table
 While most scientists may be more comfortable with GUIs, the current research landscape requires the use of [scripts and code]{style="color:green;"} to ensure reproducible research results.
 :::
 
-![](images/Theway.png){fig-align="center"}
+![](images/Theway.png){fig-alt="A humorous Star Wars-themed meme comparing different programming languages. The image is divided into three sections, each showing a Star Wars character wielding a lightsaber. On the left, Luke Skywalker, with an 'R' programming language logo, holds a blue lightsaber. In the center, Kylo Ren wields a red crossguard lightsaber with the GraphPad logo. On the right, Mace Windu, associated with the Python logo, holds a purple lightsaber. This meme humorously depicts the perceived roles open sofeare has in the research landscape." fig-align="center"}
 
 ::: callout-tip
 {{< bi code-square >}} Coding should be considered an [essential skill]{style="color:green;"} like other research methods.
@@ -594,7 +594,7 @@ FRDR has competent staff to guide researchers and institutions to ensure that da
 ## Borealis network in Canada{.center}
 
 ::: {style="text-align: center;font-size: 50%"}
-![Borealis network in Canada](images/BorealisMap.png){fig-align="center" width="800" height="400"}
+![Borealis network in Canada](images/BorealisMap.png){fig-alt="A map of Canada displaying the locations of Borealis clusters forming the Canadian network. The points are distributed across the country, with a concentration in the eastern and western regions, as well as some in central and northern areas." fig-align="center" width="800" height="400"}
 :::
 
 
@@ -613,7 +613,7 @@ FRDR has competent staff to guide researchers and institutions to ensure that da
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Borealis datasets are organized in collections](images/BorealisCollections.png){fig-align="center" width="600" height="300"}
+![Borealis datasets are organized in collections](images/BorealisCollections.png){fig-alt="A diagram illustrating the hierarchical structure of data collections. On the left, a collection contains multiple datasets labeled Dataset 1, Dataset 2, and Dataset ... On the right, another collection contains a sub-collection, which in turn includes Dataset 1 and Dataset 2.  " fig-align="center" width="600" height="300"}
 :::
 ::::
 :::::
@@ -634,7 +634,7 @@ FRDR has competent staff to guide researchers and institutions to ensure that da
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Borealis table viewer](images/BorealisTools.png){fig-align="center" width="500" height="300"}
+![Borealis table viewer](images/BorealisTools.png){fig-alt="A screenshot of the Borealis data repository interface displaying a dataset from Angus Reid Global, 2014. The dataset is titled Drone Awareness and Perceptions: A Three Country Study 2014. The image shows an income distribution visualization with a bar chart and a corresponding table. The categories in the table include income groups such as <$50K, $50-99K, $100K+, and DK/REF, with their respective counts and percentages. The interface includes options for cross-tabulation, summary statistics, and data download. " fig-align="center" width="500" height="300"}
 :::
 ::::
 :::::
@@ -642,7 +642,7 @@ FRDR has competent staff to guide researchers and institutions to ensure that da
 ## {.center}
 
 ::: {style="text-align: center;font-size: 100%"}
-![Visit [FRDR](https://www.frdr-dfdr.ca/repo/) or [Borealis](https://borealisdata.ca/)](images/Repositories_Logo.png){fig-align="center" width="1000" height="220"}
+![Visit [FRDR](https://www.frdr-dfdr.ca/repo/) or [Borealis](https://borealisdata.ca/)](images/Repositories_Logo.png){fig-alt="Logos of two Canadian research data repositories: FRDR (Federated Research Data Repository) and Borealis. The FRDR logo features a geometric pattern of yellow squares forming a diamond shape, with the repository name in black and gold text. The Borealis logo includes an artistic depiction of the Northern Lights over mountains and a lake, with the repository name in bold white text. " fig-align="center" fig-align="center" width="1000" height="220"}
 :::
 
 
@@ -661,7 +661,7 @@ FRDR has competent staff to guide researchers and institutions to ensure that da
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 100%"}
-![This presentation is available [here](https://github.com/Alliance-RDM-GDR/RDM_DepositingData) (English or French)](images/Presentation_QR-code.png){fig-align="center" width="200" height="200"}
+![This presentation is available [here](https://github.com/Alliance-RDM-GDR/RDM_DepositingData) (English or French)](images/Presentation_QR-code.png){fig-alt="A QR code image that redirects to the presentation located in a GitHub repository." fig-align="center" width="200" height="200"}
 :::
 ::::
 :::::
