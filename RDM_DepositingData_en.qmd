@@ -2,8 +2,8 @@
 title: "Sharing and depositing research data"
 subtitle: "A guide for researchers"
 author: 
-  - name: Daniel Manrique-Castano, Ph.D
-    email: daniel.manrique-castano@alliancecan.ca
+  - name: FRDR curation team
+    email: curators@frdr-dfdr.ca
     affiliations:
       - name: Digital Research Alliance of Canada
       - Department: Research Data Management
@@ -26,21 +26,27 @@ format:
     mermaid:
       theme: forest
       mermaid-format: png
-    
+    revealjs-plugins:
+      - kapsner/audio-slideshow
+    revealjs-args:
+      - audio: true
+      - audio: {"captions": true}
+      - audioAutoplay: false
+      - audioControls: true
     
 filters:
   - reveal-auto-agenda
 auto-agenda:
   bullets: numbered
   heading: Agenda
-  
 
 css: styles.css
 bibliography: references.bib 
 editor: source
 ---
 
-# Why do we care about sharing data?
+
+# Why do we care about sharing data? 
 
 ## Why do we share and reuse data?{.center} 
 
@@ -110,9 +116,12 @@ A["Transparency"] --> B["Accountability"]
 B--> C["Return on investment"]
 ```
 
+
 # Current issues with data 
 
 ## Data could be in many places{.center} 
+
+In most research environments, data are stored across a wide range of locations, and often, in an uncoordinated way.
 
 ::::: {layout-ncol="4"}
 :::: {#first-column}
@@ -142,6 +151,8 @@ B--> C["Return on investment"]
 :::::
 
 ## Data are not shared{.center}
+
+Although many research articles claim that data are "available upon request," the reality often tells a different story.
 
 ::::: {layout-ncol="2" layout-valign="center"}
 :::: {#first-column}
@@ -175,15 +186,18 @@ When we shared data typically:
 
 ## Ensure that data is a comprehensible, independent resource{.center}
 
-Expected accomplishments when sharing data:
+This means that the dataset should be:
 
-- {{< bi archive-fill >}} The dataset is a [standalone resource]{style="color:green;"} (independent object of a research article).
+- {{< bi archive-fill >}} **Well documented:** Others should be able to [understand]{style="color:green;"} the dataset without needing access to the original researchers or article. 
 
-- {{< bi binoculars-fill >}} The dataset is [discoverable]{style="color:green;"} and [understandable]{style="color:green;"}.
+- {{< bi binoculars-fill >}} **Organized:** File structures, naming conventions, and folder hierarchies should be logical and easy to follow.
 
-- {{< bi person-fill >}} The dataset is suitable for [reuse]{style="color:green;"} by the community.
+- {{< bi person-fill >}} **Discoverable:** The dataset should be [accesible]{style="color:green;"} and [reusable]{style="color:green;"} by the community.
+
 
 ## FAIR principles {.smaller}
+
+In general, datasets must follow the [FAIR](https://www.go-fair.org/fair-principles/) principles:
 
 :::: {layout-ncol="2"}
 ::: {#first-column}
@@ -431,16 +445,20 @@ Despite being the most common file type (.xls) for recording/storing data, table
 ::::: {layout-ncol="2"}
 :::: {#first-column}
 ::: {style="text-align: center;font-size: 50%"}
-![from https://dansteer.wordpress.com/](images/BadTable1.webp){fig-alt="Example of bad data formatting, showcasing a spreadsheet with combined cells and different variables in the same column." fig-align="center" width="600" height="300"}
+![from https://dansteer.wordpress.com/](images/BadTable1.webp){fig-alt="Example of bad data formatting, showcasing a spreadsheet with combined cells and different variables in the same column." fig-align="center" width="500" height="250"}
 :::
 ::::
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 50%"}
-![Courtesy of researcher](images/BadTable2.png){fig-alt="Example of bad data formatting, showcasing a spreadsheet with combined cells and different variables in the same column. We can also observe a combination of figures and numeric data in the same sheet."  fig-align="center" width="600" height="300"}
+![Courtesy of researcher](images/BadTable2.png){fig-alt="Example of bad data formatting, showcasing a spreadsheet with combined cells and different variables in the same column. We can also observe a combination of figures and numeric data in the same sheet."  fig-align="center" width="500" height="250"}
 :::
 ::::
 :::::
+
+::: {style="text-align: left;font-size: 70%"}
+Among the most problematic formatting issues are: [merged cells]{style="color:red;"} that confuse parsing tools, [inconsistent structures]{style="color:red;"} where multiple variables are crammed into a single column or row, and [mixed content]{style="color:red;"}, such as tables combined with graphs or formatting.
+:::
 
 ## {{< bi file-earmark-spreadsheet>}} Share tidy-formatted tables{.center} 
 
@@ -593,6 +611,8 @@ FRDR has competent staff to guide researchers and institutions to ensure that da
 
 ## Borealis network in Canada{.center}
 
+Each point represents a participating academic institution that has integrated Borealis into its research data services. 
+
 ::: {style="text-align: center;font-size: 50%"}
 ![Borealis network in Canada](images/BorealisMap.png){fig-alt="A map of Canada displaying the locations of Borealis clusters forming the Canadian network. The points are distributed across the country, with a concentration in the eastern and western regions, as well as some in central and northern areas." fig-align="center" width="800" height="400"}
 :::
@@ -672,3 +692,55 @@ Contact us to ensure that your data are well prepared and can be effectively sha
 
 -   Email: rdm-gdr\@alliancecan.ca
 -   https://www.frdr-dfdr.ca/repo/
+
+
+::: {.notes}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const slides = document.querySelectorAll(".slide[data-caption-src]");
+
+  // The global audio player added by the plugin
+  const globalAudio = document.querySelector(".audio-controls audio");
+
+  slides.forEach(slide => {
+    const captionUrl = slide.getAttribute("data-caption-src");
+    const captionBox = slide.querySelector("#custom-caption-box");
+
+    if (!captionUrl || !captionBox || !globalAudio) return;
+
+    fetch(captionUrl)
+      .then(res => res.text())
+      .then(vtt => {
+        const cues = [];
+        const lines = vtt.split("\n").filter(line => line.trim() !== "");
+        for (let i = 0; i < lines.length; i++) {
+          if (lines[i].includes("-->")) {
+            const [start, end] = lines[i].split(" --> ").map(t => toSeconds(t));
+            const text = lines[i + 1] || "";
+            cues.push({ start, end, text });
+          }
+        }
+
+        globalAudio.addEventListener("timeupdate", () => {
+          if (!slide.classList.contains("present")) return; // only update for active slide
+          const t = globalAudio.currentTime;
+          const active = cues.find(c => t >= c.start && t <= c.end);
+          captionBox.textContent = active ? active.text : "";
+        });
+
+        globalAudio.addEventListener("pause", () => {
+          if (slide.classList.contains("present")) {
+            captionBox.textContent = "";
+          }
+        });
+      });
+
+    function toSeconds(ts) {
+      const [h, m, s] = ts.replace(',', '.').split(':');
+      return parseFloat(h) * 3600 + parseFloat(m) * 60 + parseFloat(s);
+    }
+  });
+});
+</script>
+:::
+

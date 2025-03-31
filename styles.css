@@ -22,3 +22,31 @@ position: fixed;
 bottom: 45em;
 left: 108em;
 box-shadow: 3px 3px 5px #000; }
+
+
+.reveal .audio-controls {
+  position: absolute;
+  left: 0.1;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.reveal .audio-controls audio {
+  margin: 0;
+  width: 30px;  
+  max-width: 50%; 
+}
+
+.reveal .audio-caption {
+  bottom: 3.5em;
+  left: 1em;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 0.4em 1em;
+  font-size: 1em;
+  border-radius: 5px;
+  max-width: 60%;
+  text-align: left;
+  z-index: 1000;
+}
