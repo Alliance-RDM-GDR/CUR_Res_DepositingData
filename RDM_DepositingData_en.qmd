@@ -21,6 +21,7 @@ format:
     theme: white
     transition: fade
     slide-number: true
+    progress: true
     show-slide-number: all
     preview-links: auto
     mermaid:
@@ -197,7 +198,7 @@ This means that the dataset should be:
 
 ## FAIR principles {.smaller}
 
-In general, datasets must follow the [FAIR](https://www.go-fair.org/fair-principles/) principles:
+In general, datasets must follow the [FAIR principles](https://www.go-fair.org/fair-principles/):
 
 :::: {layout-ncol="2"}
 ::: {#first-column}
@@ -325,7 +326,7 @@ The [README]{style="color:green;"} file is a guide to [understanding the dataset
 
 :::: {#second-column}
 ::: {style="font-size: 80%;"}
-FRDR users can use our [text](https://www.frdr-dfdr.ca/docs/txt/README.txt) or \[web\] template to generate a [README file]{style="color:green;"} for submission to FRDR.
+FRDR users can use our [text](https://www.frdr-dfdr.ca/docs/txt/README.txt) or \[web\] templates to generate a [README file]{style="color:green;"} for submission to FRDR.
 
 Additional resources are:\
 - [Creating a README file](https://blog.datadryad.org/2023/10/18/for-authors-creating-a-README-for-rapid-data-publication/)\
@@ -398,7 +399,7 @@ Overall, ensure that the dataset structure is [logical and consistent]{style="co
 :::: {#first-column}
 [TIER 4.0](https://www.projecttier.org/tier-protocol/protocol-4-0/root/) is a [project template]{style="color:green;"} to standardize datasets.
 
-[Download](https://github.com/Alliance-RDM-GDR/RDM_DepositingData/blob/main/resources/TIER4.0_DatasetTemplate.zip) the project structure and adapt it to specific cases.
+Download the [project structure](https://github.com/Alliance-RDM-GDR/RDM_DepositingData/blob/main/resources/TIER4.0_DatasetTemplate.zip) and adapt it to specific cases.
 ::::
 
 :::: {#second-column}
@@ -432,7 +433,7 @@ Shared data includes:
 :::::
 
 ::: callout-tip 
-Visit this [resource](https://github.com/Alliance-RDM-GDR/RDM_OrganizeData) for principles on handling and organizing research data.
+Visit our resource on [handling and organizing research data](https://github.com/Alliance-RDM-GDR/RDM_OrganizeData).
 :::
 
 
@@ -580,7 +581,7 @@ FRDR supports a [wide range of disciplines]{style="color:green;"} and data types
 ::: r-fit-text
 {{< bi bookmark-plus-fill >}} FRDR ensures the [long-term preservation]{style="color:green;"}, [accessibility]{style="color:green;"} and [usability]{style="color:green;"} of datasets through its curation and preservation team.
 
-{{< bi bookmark-plus-fill >}} FRDR supports funding [agencies](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions) requirements related to open access to data (and [research data management plans](https://dmp-pgd.ca/)).
+{{< bi bookmark-plus-fill >}} FRDR supports [funding agencies](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions) requirements related to open access to data (and [research data management plans](https://dmp-pgd.ca/)).
 
 {{< bi bookmark-plus-fill >}} FRDR supports [large datasets]{style="color:green;"}, making it an ideal repository for data-intensive research.
 
@@ -590,7 +591,7 @@ FRDR supports a [wide range of disciplines]{style="color:green;"} and data types
 ::: callout-tip
 ## FRDR supports researchers and institutions
 
-FRDR has competent staff to guide researchers and institutions to ensure that datasets are valuable and comply with [FAIR](https://www.go-fair.org/fair-principles/) principles.
+FRDR has competent staff to guide researchers and institutions to ensure that datasets are valuable and comply with [FAIR principles](https://www.go-fair.org/fair-principles/).
 :::
 
 
@@ -681,7 +682,7 @@ Each point represents a participating academic institution that has integrated B
 
 :::: {#second-column}
 ::: {style="text-align: center;font-size: 100%"}
-![This presentation is available [here](https://github.com/Alliance-RDM-GDR/RDM_DepositingData) (English or French)](images/Presentation_QR-code.png){fig-alt="A QR code image that redirects to the presentation located in a GitHub repository." fig-align="center" width="200" height="200"}
+![This presentation is available in [English or French](https://github.com/Alliance-RDM-GDR/RDM_DepositingData)](images/Presentation_QR-code.png){fig-alt="A QR code image that redirects to the presentation located in a GitHub repository." fig-align="center" width="200" height="200"}
 :::
 ::::
 :::::
@@ -692,55 +693,3 @@ Contact us to ensure that your data are well prepared and can be effectively sha
 
 -   Email: rdm-gdr\@alliancecan.ca
 -   https://www.frdr-dfdr.ca/repo/
-
-
-::: {.notes}
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const slides = document.querySelectorAll(".slide[data-caption-src]");
-
-  // The global audio player added by the plugin
-  const globalAudio = document.querySelector(".audio-controls audio");
-
-  slides.forEach(slide => {
-    const captionUrl = slide.getAttribute("data-caption-src");
-    const captionBox = slide.querySelector("#custom-caption-box");
-
-    if (!captionUrl || !captionBox || !globalAudio) return;
-
-    fetch(captionUrl)
-      .then(res => res.text())
-      .then(vtt => {
-        const cues = [];
-        const lines = vtt.split("\n").filter(line => line.trim() !== "");
-        for (let i = 0; i < lines.length; i++) {
-          if (lines[i].includes("-->")) {
-            const [start, end] = lines[i].split(" --> ").map(t => toSeconds(t));
-            const text = lines[i + 1] || "";
-            cues.push({ start, end, text });
-          }
-        }
-
-        globalAudio.addEventListener("timeupdate", () => {
-          if (!slide.classList.contains("present")) return; // only update for active slide
-          const t = globalAudio.currentTime;
-          const active = cues.find(c => t >= c.start && t <= c.end);
-          captionBox.textContent = active ? active.text : "";
-        });
-
-        globalAudio.addEventListener("pause", () => {
-          if (slide.classList.contains("present")) {
-            captionBox.textContent = "";
-          }
-        });
-      });
-
-    function toSeconds(ts) {
-      const [h, m, s] = ts.replace(',', '.').split(':');
-      return parseFloat(h) * 3600 + parseFloat(m) * 60 + parseFloat(s);
-    }
-  });
-});
-</script>
-:::
-
