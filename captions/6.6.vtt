@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.000
+Borealis offers a set of integrated tools that enhance the usability and exploration of research data.
+
+00:00:07.000 --> 00:00:09.000
+File Preview
+
+00:00:09.000 --> 00:00:17.000
+This feature allows users to explore certain file types directly in the browser, allowing the users to assess whether a data set is relevant to their needs.
+
+00:00:18.000 --> 00:00:20.000
+Data Explorer Tool
+
+00:00:20.000 --> 00:00:27.000
+You can interactively browse and visualize tabular data from formats like SPSS, Excel, and CSV.
+
+00:00:28.000 --> 00:00:30.000
+GitHub Integration
+
+00:00:30.000 --> 00:00:37.000
+Borealis supports GitHub actions, enabling researchers to link their data sets with version-controlled code repositories.
+
+00:00:37.000 --> 00:00:42.000
+This is particularly useful for workflows that combine data with reproducible scripts.
+

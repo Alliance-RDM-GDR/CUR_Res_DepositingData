@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.000
+Coding is essential in research.
+
+00:00:04.000 --> 00:00:08.000
+To ensure transparency and reproducibility, it's not enough to share data alone.
+
+00:00:08.000 --> 00:00:11.000
+You also need to share the code used to transform and analyze it.
+
+00:00:12.000 --> 00:00:19.000
+This includes scripts used for, data cleaning and formatting, merging data sets, and generating figures or statistical results.
+
+00:00:20.000 --> 00:00:24.000
+The code helps documenting the logic behind your results.
+
+00:00:24.000 --> 00:00:29.000
+It allows others to replicate your steps and understand how raw data were transformed into final outputs.
+
+00:00:31.000 --> 00:00:35.000
+Think of coding as a core research skill, just like experimental design or statistics.
+
+00:00:36.000 --> 00:00:43.000
+Languages like R&Python are widely used, and modern tools, including AI assistants, make coding more accessible than ever before.
+

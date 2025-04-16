@@ -1,0 +1,47 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.000
+Data could be in many places.
+
+00:00:04.000 --> 00:00:08.000
+In most research environments, data are stored across a wide range of locations,
+
+00:00:08.000 --> 00:00:10.000
+and often in an uncoordinated way.
+
+00:00:11.000 --> 00:00:14.000
+They might be found on the laptops of students or postdocs,
+
+00:00:14.000 --> 00:00:18.000
+making them vulnerable to loss or inaccessibility when people leave the lab.
+
+00:00:19.000 --> 00:00:22.000
+They could be saved within an institute's internal network,
+
+00:00:22.000 --> 00:00:26.000
+which may be secure but not always organized for long-term preservation or sharing.
+
+00:00:27.000 --> 00:00:32.000
+Some data sets are stored in cloud services, such as Google Drive or Dropbox.
+
+00:00:32.000 --> 00:00:36.000
+These platforms are convenient but not designed for structured research data management,
+
+00:00:36.000 --> 00:00:39.000
+and may lack clear ownership or metadata.
+
+00:00:40.000 --> 00:00:43.000
+Other data reside on high-performance computing, HPC, clusters,
+
+00:00:43.000 --> 00:00:47.000
+which support large-scale processing but don't always offer user-friendly interfaces
+
+00:00:47.000 --> 00:00:50.000
+for managing and sharing data sets.
+
+00:00:51.000 --> 00:00:56.000
+This fragmentation makes it difficult to track, cure it, and preserve research data.
+
+00:00:57.000 --> 00:01:04.000
+That's why centralized, well-curated repositories play such an important role in ensuring long-term access and reuse.
+
