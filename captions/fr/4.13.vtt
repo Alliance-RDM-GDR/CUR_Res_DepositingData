@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.000
+Mais fiez-vous des tableaux malformatés.
+
+00:00:03.000 --> 00:00:09.500
+Bien que les feuilles de calcul comme Excel, point XLS, point XLS-6, soit largement utilisé dans la recherche,
+
+00:00:09.500 --> 00:00:13.000
+elles donnent souvent lieu à des tableaux mal structurés inutilisables.
+
+00:00:13.000 --> 00:00:20.000
+En fait, les tableaux font partie des objets de donner les plus problématiques dans la recherche en raison de problèmes de formatage telle que.
+
+00:00:20.000 --> 00:00:25.000
+Des cellules fusionnées qui embrouillent les outils d'analyse et rendent l'automatisation difficile.
+
+00:00:26.000 --> 00:00:31.000
+Des structures incohérentes ou plusieurs variables sont entassées dans une seule colonne ou ligne.
+
+00:00:31.000 --> 00:00:37.000
+Des contenus mixed, telle que des tableaux combinés avec des graphiques, des mises en forme ou des commentaires.
+
+00:00:37.000 --> 00:00:44.000
+Ces problèmes rendent les données difficiles à nettoyer, à valider, à réutiliser ou à préserver.
+
+00:00:44.000 --> 00:00:51.000
+Malheureusement, ils sont fréquents, en particulier dans les documents complémentaires des articles de recherche.
+
+00:00:51.000 --> 00:00:54.000
+Les bonnes pratiques en matière de données commencent par la structure.
+
+00:00:54.000 --> 00:00:58.000
+Si vos tableaux ne sont pas lisibles par une machine et organisée de manière logique,
+
+00:00:58.000 --> 00:01:02.000
+ils perdent une grande partie de leur valeur pour les autres et pour voire l'avenir.
+

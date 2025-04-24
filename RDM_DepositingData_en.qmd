@@ -6,7 +6,6 @@ author:
     email: curators@frdr-dfdr.ca
     affiliations:
       - name: Digital Research Alliance of Canada
-      - Department: Research Data Management
 
 format: 
 

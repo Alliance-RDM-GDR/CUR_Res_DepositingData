@@ -1,0 +1,56 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.000
+Listes de vérifications pour le dépôt de données.
+
+00:00:03.600 --> 00:00:07.720
+Lorsque vous êtes prêt à déposer votre jeu de données dans un dépôt comme DFDR,
+
+00:00:07.720 --> 00:00:11.320
+assurez-vous qu'il est bien préparé pour être réutilisé par d'autres.
+
+00:00:11.320 --> 00:00:14.720
+Voici une liste de vérifications rapides pour vous guider.
+
+00:00:15.200 --> 00:00:17.480
+Les dossiers et fichiers sont organisés.
+
+00:00:17.480 --> 00:00:20.120
+Utilisez une structure claire et logique.
+
+00:00:20.120 --> 00:00:26.000
+Alignez-la sur les normes de votre communauté lorsque c'est possible ou à défaut sur le bon sens.
+
+00:00:26.480 --> 00:00:29.240
+Les fichiers ont des non cohérents et descriptifs.
+
+00:00:29.520 --> 00:00:32.280
+Veillez à ce que toutes personnes consultent votre jeu de données
+
+00:00:32.280 --> 00:00:35.760
+puisqu'on prendre le contenu de chaque fichier et son rôle dans l'ensemble.
+
+00:00:36.640 --> 00:00:38.880
+Vous avez privilégié des formats ouvertes.
+
+00:00:38.880 --> 00:00:43.600
+Choisissez des formats largement accessible et compatibles avec la préservation à long terme,
+
+00:00:43.600 --> 00:00:47.400
+comme le format CSV pour les données tabulaires ou tifs pour les images.
+
+00:00:48.200 --> 00:00:50.280
+La documentation est suffisante.
+
+00:00:50.920 --> 00:00:56.480
+Incluer un fichier rythme détaillé, des métadonnais pertinentes et tout côte-book nécessaires à la compréhension
+
+00:00:56.480 --> 00:00:58.280
+et à la réutilisation des données.
+
+00:00:59.040 --> 00:01:02.680
+En suivant ces étapes, vous respectez non seulement les bonnes pratiques,
+
+00:01:02.680 --> 00:01:07.680
+mais vous augmentez également la visibilité, l'impact et la reproductibilité de votre travail.
+

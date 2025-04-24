@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.000
+Définissez la structure de votre ensemble de données.
+
+00:00:03.600 --> 00:00:09.200
+Pour faciliter la réutilisation, votre ensemble de données doit être clairement et logiquement structurées,
+
+00:00:09.200 --> 00:00:11.200
+idéalement dès le début du projet.
+
+00:00:11.800 --> 00:00:15.200
+Imaginez votre ensemble de données comme une poupée matriosca
+
+00:00:15.200 --> 00:00:19.000
+où les dossiers sont embriqués les uns dans les autres de manière significative.
+
+00:00:19.000 --> 00:00:24.600
+Chaque niveau doit ajouter un contexte et des l'utilisateur à comprendre comment les données sont organisées.
+
+00:00:25.400 --> 00:00:29.000
+Il est surprenant de constater que cet aspect est souvent négligeé.
+
+00:00:29.600 --> 00:00:35.200
+Dans la pratique, de nombreux ensembles de données sont soumis avec des structures de dossiers confus ou incohérentes,
+
+00:00:35.200 --> 00:00:38.200
+ce qui les rend difficile à interpréter ou à réutiliser.
+

@@ -1,0 +1,80 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.000
+que doit contenir un ensemble de données.
+
+00:00:02.800 --> 00:00:05.400
+Comme le montre le modèle T4.0,
+
+00:00:05.400 --> 00:00:09.400
+un jeu de données bien préparé comprend généralement plusieurs éléments essentiels.
+
+00:00:10.200 --> 00:00:11.200
+Donnez Brute.
+
+00:00:11.400 --> 00:00:14.600
+Il s'agit des fichiers originaux, non modifiés,
+
+00:00:14.600 --> 00:00:18.000
+généré par les instruments ou collectés au cours des expériences.
+
+00:00:18.600 --> 00:00:21.000
+Donnez Intermédiaire et Donnez d'analyse.
+
+00:00:21.200 --> 00:00:23.600
+Il s'agit des ensembles de données nettoyées,
+
+00:00:23.600 --> 00:00:26.400
+transformés ou filtres utilisés pour l'analyse.
+
+00:00:26.600 --> 00:00:29.800
+Elles représentent le pont entre les données Brutes et les résultats.
+
+00:00:30.600 --> 00:00:32.600
+Scripte de traitement et d'analyse.
+
+00:00:32.800 --> 00:00:36.400
+Code ou scripte qui documentent la manière dont les données ont été nettoyées,
+
+00:00:36.400 --> 00:00:37.800
+traité ou analysé.
+
+00:00:38.000 --> 00:00:40.800
+Ils sont essentiels à la reproductibilité.
+
+00:00:41.600 --> 00:00:43.000
+Sorti et résultat.
+
+00:00:43.200 --> 00:00:44.600
+Les résultats finaux,
+
+00:00:44.600 --> 00:00:45.800
+telles que les graphiques,
+
+00:00:45.800 --> 00:00:48.800
+les tableaux récapitulatifs ou les résultats statistiques,
+
+00:00:48.800 --> 00:00:52.000
+sont généralement générés à partir de scripte d'analyse.
+
+00:00:52.600 --> 00:00:54.600
+Fichiers rythmes et livres de code.
+
+00:00:54.800 --> 00:00:57.400
+Ils fournissent le contexte et la documentation.
+
+00:00:57.800 --> 00:01:00.200
+Le rythme explique la structure de l'ensemble de données
+
+00:01:00.200 --> 00:01:02.200
+et les livres de code décrivent les variables,
+
+00:01:02.400 --> 00:01:04.000
+les formats et les métadonnais.
+
+00:01:05.000 --> 00:01:07.600
+Pour plus de conseils sur l'organisation des fichiers,
+
+00:01:07.800 --> 00:01:10.800
+vous pouvez explorer la ressource liée sur la diapositive.
+
