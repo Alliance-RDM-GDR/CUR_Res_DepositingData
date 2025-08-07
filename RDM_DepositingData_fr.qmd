@@ -2,7 +2,7 @@
 title: "Dépôt des données de recherche"
 subtitle: "Guide à l'usage des chercheurs"
 author: 
-  - name: L'équipe de curation du DFDR
+  - name: Équipe de curation des données du DFDR
     email: curators@frdr-dfdr.ca
     affiliations:
       - name: Alliance de Recherche Numérique du Canada
@@ -695,5 +695,5 @@ Le DFDR bénéficie de personnel qualifié qui guide les équipes de recherche e
 Communiquez avec nous pour vérifier que vos données sont bien préparées et pourront être partagées efficacement avec la communauté de recherche.
 
 -   Courriel: rdm-gdr\@alliancecan.ca
--   https://www.frdr-dfdr.ca/repo/
+-   [Site web du DFDR](https://www.frdr-dfdr.ca/repo/)
 :::

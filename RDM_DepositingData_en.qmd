@@ -705,5 +705,5 @@ Each point represents a participating academic institution that has integrated B
 Contact us to ensure that your data are well prepared and can be effectively shared with the research community.
 
 -   Email: rdm-gdr\@alliancecan.ca
--   https://www.frdr-dfdr.ca/repo/
+-   [FRDR website](https://www.frdr-dfdr.ca/repo/)
 :::
