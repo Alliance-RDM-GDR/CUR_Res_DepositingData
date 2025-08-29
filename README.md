@@ -10,7 +10,6 @@ For more presentations developed by the curation team of the Federated Research 
 
 All scholarly material in this repository is shared under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/deed.en).
 
-<<<<<<< HEAD
 If you use this presentation in your work, please cite it using the following metadata or the citation file in the repository:
 
 Manrique-Castano, D & FRDR Curation Team. (2025). Sharing and depositing research data: A guide for researchers. (Version 2025.09). Zenodo. https:doi.org/10.5281/zenodo.16994911. 
@@ -18,9 +17,6 @@ Manrique-Castano, D & FRDR Curation Team. (2025). Sharing and depositing researc
 
 **Contact:** curators@frdr-dfdr.ca 
 
-=======
-**Contact:** curators\@frdr-dfdr.ca
->>>>>>> c85fc13de70697cb266beb14130fb5cdbc7268f9
 
 ## Partage et dépôt des données de recherche : un guide à l'usage des chercheurs
 
@@ -32,12 +28,10 @@ Pour d'autres présentations du Dépôt fédéré de données de recherche [(DFD
 
 Tout le matériel académique contenu dans ce référentiel est partagé sous la [licence CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en).
 
-<<<<<<< HEAD
+
 Si vous utilisez cette présentation dans le cadre de votre travail, veuillez la citer en utilisant les métadonnées suivantes ou le fichier de citation disponible dans le référentiel :
 
 Manrique-Castano, D & FRDR Curation Team. (2025). Dépôt des données de recherche: Guide à l'usage des chercheurs. (Version 2025.09). Zenodo. https:doi.org/10.5281/zenodo.16994911. 
 
 **Contact:** curators@frdr-dfdr.ca 
-=======
-**Contact:** curators\@frdr-dfdr.ca
->>>>>>> c85fc13de70697cb266beb14130fb5cdbc7268f9
+
