@@ -1,0 +1,65 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.600
+Commencez à structurer votre ensemble de données taux, mais il n'est jamais trop tard.
+
+00:00:05.440 --> 00:00:10.240
+Idéalement, vous devriez concevoir la structure de votre ensemble de données au début d'un projet,
+
+00:00:10.240 --> 00:00:15.360
+mais si cela n'a pas été fait, la restructurée a mis par cours ou même à la fin en vaut toujours la peine.
+
+00:00:16.160 --> 00:00:18.520
+Voici les éléments clés à prendre en compte.
+
+00:00:19.320 --> 00:00:20.760
+Structure des dossiers.
+
+00:00:20.760 --> 00:00:23.000
+Organisez les données de manière logique.
+
+00:00:23.000 --> 00:00:27.800
+Par exemple, créez des dossiers distincts pour les données brutes, les données traités,
+
+00:00:27.960 --> 00:00:30.560
+la documentation et l'escripte d'analyse.
+
+00:00:30.560 --> 00:00:33.680
+Regroupez les fichiers apparentés et évitez le désordre.
+
+00:00:34.800 --> 00:00:36.240
+Les formats de fichiers.
+
+00:00:36.240 --> 00:00:39.160
+Choisissez des formats ouverts et largement supportés.
+
+00:00:39.160 --> 00:00:43.400
+Par exemple, utilisez CSV au lieu d'excelles pour les données tabulaires
+
+00:00:43.400 --> 00:00:46.680
+ou tifes au lieu de format d'image propriétaire tel que point ci.
+
+00:00:46.680 --> 00:00:50.640
+Les formats ouverts favorisent l'accès et la réutilisation à long terme.
+
+00:00:51.640 --> 00:00:53.560
+Les conventions d'appelations.
+
+00:00:53.560 --> 00:00:57.160
+Utilisez des non-descriptifs et cohérents pour les fichiers et les dossiers.
+
+00:00:57.320 --> 00:01:01.480
+Évitez les éthiquettes vague tel que, data final 2.xlsx.
+
+00:01:02.320 --> 00:01:05.760
+Utilisez plutôt des non-descripts clairement le contenu ou la version.
+
+00:01:06.800 --> 00:01:10.960
+L'objectif est d'aider les autres et vous-même, à comprendre rapidement la structure
+
+00:01:10.960 --> 00:01:14.080
+et le contenu de l'ensemble de données, même des années plus tard.
+
+00:01:15.120 --> 00:01:19.080
+Nous allons maintenant examiner les outils et les modèles qui peuvent guider ce processus.
+

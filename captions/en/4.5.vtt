@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+This example highlights how a weak description can be transformed into a highly informative one.
+
+00:00:06.500 --> 00:00:09.500
+The original version offers limited context.
+
+00:00:10.500 --> 00:00:17.000
+It briefly mentions the species and chemicals involved but lacks information on methods, data types, and potential reuse.
+
+00:00:17.500 --> 00:00:19.500
+The improved version adds.
+
+00:00:20.500 --> 00:00:26.500
+Scientific context about why the study matters, for instance, effects of neurochemicals in aquatic organisms.
+
+00:00:27.500 --> 00:00:34.000
+Details on experimental design, measured parameters, and methods used, like high throughput assays in RNA sequencing.
+
+00:00:35.500 --> 00:00:41.000
+Specific types of data shared, including videos, gene sequences, our code, and dot-fast-of-files.
+
+00:00:42.500 --> 00:00:49.000
+And finally, keywords that enhance discoverability, such as serotonin, dopamine, GABA, and RNA sequencing.
+
+00:00:50.000 --> 00:00:51.500
+A relevant tip.
+
+00:00:52.500 --> 00:00:55.500
+Use as many relevant keywords as possible.
+
+00:00:56.500 --> 00:01:01.000
+Think about what someone might type into a search field to find your dataset.
+

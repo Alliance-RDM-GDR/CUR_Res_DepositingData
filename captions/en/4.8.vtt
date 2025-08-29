@@ -1,0 +1,62 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.000
+What to include in a ReadMe file?
+
+00:00:04.000 --> 00:00:08.000
+A well-structured ReadMe file should contain the following elements.
+
+00:00:08.000 --> 00:00:11.000
+DataSet identifiers
+
+00:00:11.000 --> 00:00:20.000
+Include the title of the dataset, the names of the authors or contributors, the dates of data collection, and any relevant geographic or contextual information.
+
+00:00:20.000 --> 00:00:24.000
+This establishes the identity of the dataset.
+
+00:00:24.000 --> 00:00:27.000
+File and folder map
+
+00:00:27.000 --> 00:00:30.000
+Describe how the dataset is organized.
+
+00:00:30.000 --> 00:00:36.000
+Outline the folder structure, list the files included, and explain any naming conventions used.
+
+00:00:36.000 --> 00:00:40.000
+This helps others understand how to navigate the data.
+
+00:00:40.000 --> 00:00:43.000
+Methodological information
+
+00:00:43.000 --> 00:00:48.000
+Provide a summary of how the data were collected or generated.
+
+00:00:48.000 --> 00:00:54.000
+Mention tools, instruments, or protocols used, along with relevant experimental conditions.
+
+00:00:55.000 --> 00:01:02.000
+Remember, the ReadMe should allow the dataset to stand alone, it should not rely on the associated publication for key details.
+
+00:01:02.000 --> 00:01:06.000
+Instructions and software requirements
+
+00:01:06.000 --> 00:01:09.000
+Let users know how to access and work with the files.
+
+00:01:09.000 --> 00:01:15.000
+If specific software or code is needed, list it and include any version requirements.
+
+00:01:15.000 --> 00:01:20.000
+Finally, sharing and access information.
+
+00:01:20.000 --> 00:01:24.000
+Clearly state the licensing terms and conditions for reuse.
+
+00:01:24.000 --> 00:01:29.000
+Indicate whether the dataset is openly available or has restrictions.
+
+00:01:29.000 --> 00:01:34.000
+We recommend using a Creative Commons CCBY license for broad reuse.
+

@@ -1,0 +1,53 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.400
+Les données peuvent se trouver à de nombreux endroits.
+
+00:00:03.400 --> 00:00:08.000
+Dans la plupart des environnements de recherche, les données sont stockées dans un grand nombre d'endroits
+
+00:00:08.000 --> 00:00:10.000
+et souvent de manière non coordonnée.
+
+00:00:11.000 --> 00:00:15.000
+Elles peuvent se trouver sur les ordinateurs portables d'étudiants ou de poste doctorants
+
+00:00:15.000 --> 00:00:20.000
+ce qui les renvûlera à la perte ou à l'inaccessibilité lorsque ces personnes quittent le laboratoire.
+
+00:00:21.000 --> 00:00:24.000
+Elles peuvent être sauvagérées dans le réseau interne d'un institut
+
+00:00:24.000 --> 00:00:29.000
+qui peut être sécurisé mais n'est pas toujours organisé pour une conservation ou un partage à long terme.
+
+00:00:30.000 --> 00:00:33.000
+Certains ensemble de données sont stockées dans des services en nuage,
+
+00:00:33.000 --> 00:00:35.000
+telles que Google Drive ou Dropbox.
+
+00:00:35.000 --> 00:00:40.000
+Ces plateformes sont pratiques mais ne sont pas conçues pour une gestion structurée des données de recherche
+
+00:00:40.000 --> 00:00:44.000
+et peuvent ne pas être clairement identifiées en termes de propriété ou de métadonnais.
+
+00:00:45.000 --> 00:00:49.000
+D'autres données sont stockées sur des clusters de calculaux de performance HPC
+
+00:00:49.000 --> 00:00:51.000
+qui permettent un traitement à grand échelle
+
+00:00:51.000 --> 00:00:56.000
+mais n'offre pas toujours d'interface conviviale pour la gestion et le partage des ensembles de données.
+
+00:00:56.000 --> 00:01:02.000
+Cette fragmentation rend difficile le suivi, la conservation et la préservation des données de recherche.
+
+00:01:02.000 --> 00:01:07.000
+C'est pourquoi les dépos centralisés et bien conservés jouent un rôle si important pour garantir l'accès
+
+00:01:07.000 --> 00:01:09.000
+et la réutilisation à long terme.
+

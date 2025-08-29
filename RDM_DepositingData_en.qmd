@@ -6,7 +6,6 @@ author:
     email: curators@frdr-dfdr.ca
     affiliations:
       - name: Digital Research Alliance of Canada
-      - Department: Research Data Management
 
 format: 
 
@@ -24,6 +23,8 @@ format:
     progress: true
     show-slide-number: all
     preview-links: auto
+    resources:
+      - images/Presentation_QR-code.png
     mermaid:
       theme: forest
       mermaid-format: png
@@ -31,7 +32,6 @@ format:
       - kapsner/audio-slideshow
     revealjs-args:
       - audio: true
-      - audio: {"captions": true}
       - audioAutoplay: false
       - audioControls: true
     
@@ -45,7 +45,6 @@ css: styles.css
 bibliography: references.bib 
 editor: source
 ---
-
 
 # Why do we care about sharing data? 
 
@@ -91,8 +90,9 @@ Data sharing is [NOT ONLY]{style="color:red;"} to meet the requirements of fundi
 %%| fig-height: 9
 
 flowchart LR
-A[Efficiency] --> B[Collaboration] 
-B --> C[Reproducibility]
+A[Efficiency] --> B[Ease of re-sharing] 
+B --> C[Collaboration]
+C --> D[Reproducibility]
 ```
 
 ### {{< bi x-diamond-fill >}} For publishers:
@@ -187,6 +187,7 @@ When we shared data typically:
 
 ## Ensure that data is a comprehensible, independent resource{.center}
 
+::: {style="text-align: left;font-size: 80%"}
 This means that the dataset should be:
 
 - {{< bi archive-fill >}} **Well documented:** Others should be able to [understand]{style="color:green;"} the dataset without needing access to the original researchers or article. 
@@ -194,7 +195,7 @@ This means that the dataset should be:
 - {{< bi binoculars-fill >}} **Organized:** File structures, naming conventions, and folder hierarchies should be logical and easy to follow.
 
 - {{< bi person-fill >}} **Discoverable:** The dataset should be [accesible]{style="color:green;"} and [reusable]{style="color:green;"} by the community.
-
+:::
 
 ## FAIR principles {.smaller}
 
@@ -278,13 +279,16 @@ Make sure that the title reflects the [nature and content]{style="text-decoratio
 The title of the dataset [IS NOT]{style="color:red;"} the same as the title of the associated research article.
 :::
 
-## Dataset description
+## Dataset description{.center}
 
-The description of the dataset shall contain [sufficient elements]{style="color:green;"} to understand its nature, origin and content.  
+
+::: {style="text-align: left;font-size: 80%"}
+The description of the dataset shall contain [sufficient elements]{style="color:green;"} to understand its nature, origin and content.
+:::
 
 ### {{< bi  bookmark-check >}} Example 1 
 
-::: {style="text-align: left; font-size: 50%"}
+::: {style="text-align: left; font-size: 45%"}
 [Original description:]{style="color:red;"} This dataset provides climate data (19 bioclimate variables as defined by worldclim) that were generated using the Biosim 11 software at a spatial resolution of 9 km across Canada between 1980-2020.
 
 [Improved description:]{style="color:green;"} This dataset provides climate data (19 bioclimate variables as defined by worldclim) that were generated using the Biosim 11 software at a spatial resolution of 9 km across Canada between 1980-2020. Please refer to https://www.worldclim.org/data/bioclim.html for information about the variables. The dataset contains: the annual mean temperature, mean diurnal range, isothermality, temperature seasonality, maximum temperature of warmest month, minimum temperature of coldest month, temperature annual range, mean temperature of wettest quarter, mean temperature of driest quarter, mean temperature of warmest quarter, mean temperature of coldest quarter, annual precipitation, precipitation of wettest month, precipitation of driest month, precipitation seasonality (coefficient of variation), precipitation of wettest quarter, precipitation of driest quarter, precipitation of warmest quarter, precipitation of coldest quarter.
@@ -504,6 +508,8 @@ While most scientists may be more comfortable with GUIs, the current research la
 
 ## {{< bi card-checklist >}} Submitting data to a repository{.center} 
 
+::: {style="text-align: left;font-size: 80%"}
+
 When sharing data, make sure the dataset meets these characteristics:
 
 - {{< bi diagram-2-fill >}} Folders and files are [clearly structured ]{style="color:green;"}.
@@ -514,9 +520,11 @@ When sharing data, make sure the dataset meets these characteristics:
 
 - {{< bi file-earmark-text-fill >}} The [README]{style="color:green;"} file contains [sufficient information]{style="text-decoration: underline;"} to understand the nature, content, and origin of the data. 
 
+:::
+
 ## FAQ {.center}
 
-::: {style="text-align: left;font-size: 80%"}
+::: {style="text-align: left;font-size: 70%"}
 {{< bi patch-question >}} **When do I start organizing my data for sharing?**
 
 We recommend implementing [RDM practices early and throughout the research process]{style="color:green;"}. Organizing data after years of [chaotic data management]{style="color:red;"} is challenging.
@@ -612,7 +620,9 @@ FRDR has competent staff to guide researchers and institutions to ensure that da
 
 ## Borealis network in Canada{.center}
 
+::: {style="text-align: left;font-size: 80%"}
 Each point represents a participating academic institution that has integrated Borealis into its research data services. 
+:::
 
 ::: {style="text-align: center;font-size: 50%"}
 ![Borealis network in Canada](images/BorealisMap.png){fig-alt="A map of Canada displaying the locations of Borealis clusters forming the Canadian network. The points are distributed across the country, with a concentration in the eastern and western regions, as well as some in central and northern areas." fig-align="center" width="800" height="400"}
@@ -669,15 +679,17 @@ Each point represents a participating academic institution that has integrated B
 
 ------------------------------------------------------------------------
 
-## Resources and support {.smaller}
+## Resources and support{.smaller}
 
 ::::: {layout-ncol="2"}
 :::: {#first-column}
+::: {style="text-align: left;font-size: 80%"}
 ### Supporting material
 
 -   [FRDR documentation](https://www.frdr-dfdr.ca/docs/en/depositing_data/)
 -   [Borealis user guide](https://borealisdata.ca/guides/en/latest/user/)
 -   [Training resources](https://alliancecan.ca/en/services/research-data-management/learning-and-training/training-resources) from the Alliance 
+::::
 ::::
 
 :::: {#second-column}
@@ -687,9 +699,11 @@ Each point represents a participating academic institution that has integrated B
 ::::
 :::::
 
+::: {style="text-align: left;font-size: 80%"}
 ### Support Services
 
 Contact us to ensure that your data are well prepared and can be effectively shared with the research community.
 
 -   Email: rdm-gdr\@alliancecan.ca
--   https://www.frdr-dfdr.ca/repo/
+-   [FRDR website](https://www.frdr-dfdr.ca/repo/)
+:::

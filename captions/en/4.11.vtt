@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.400
+The Tier Protocol is a guiding framework.
+
+00:00:04.160 --> 00:00:07.200
+There's no one-size-fits-all rule for organizing a data set.
+
+00:00:07.200 --> 00:00:10.320
+It depends on the content, discipline, and research context.
+
+00:00:11.120 --> 00:00:14.880
+However, frameworks like the Tier Protocol offer a solid starting point.
+
+00:00:16.320 --> 00:00:21.200
+Tier stands for, Transparency, Interpretability, ease of access and reusability.
+
+00:00:22.640 --> 00:00:27.600
+It provides a flexible structure that can be simplified or expanded based on your specific needs.
+
+00:00:28.240 --> 00:00:34.160
+On the right, you can see an example of a clean, organized data set structure based on this protocol.
+
+00:00:34.160 --> 00:00:41.360
+It clearly separates raw data, process data, scripts, documentation, and results, each in its own dedicated folder.
+
+00:00:41.360 --> 00:00:45.680
+On the left, you have a link to download the template.
+

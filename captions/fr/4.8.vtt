@@ -1,0 +1,92 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.640
+A fichier rythme bien structuré doit contenir les éléments suivants.
+
+00:00:04.400 --> 00:00:06.520
+Identifiant de l'ensemble de données,
+
+00:00:06.520 --> 00:00:08.880
+accueul le titre de l'ensemble de données,
+
+00:00:08.880 --> 00:00:11.160
+les noms des auteurs ou des contributeurs,
+
+00:00:11.160 --> 00:00:13.000
+la ou les dates de collecte des données
+
+00:00:13.000 --> 00:00:16.200
+et toute information géographique ou contextuelle pertinente.
+
+00:00:16.200 --> 00:00:19.480
+Cela permet d'établir l'identité de l'ensemble de données.
+
+00:00:20.200 --> 00:00:22.000
+Plan d'effichier et des dossiers.
+
+00:00:22.000 --> 00:00:24.720
+Décriver l'organisation de l'ensemble de données.
+
+00:00:24.720 --> 00:00:26.720
+Décriver la structure des dossiers,
+
+00:00:26.720 --> 00:00:28.600
+dresser la liste des fichiers inclus
+
+00:00:28.600 --> 00:00:31.600
+et expliquer les conventions de dénominations utilisées.
+
+00:00:31.600 --> 00:00:34.600
+Cela aide les autres à comprendre comment naviguer dans les données.
+
+00:00:35.600 --> 00:00:37.600
+Information méthodologique.
+
+00:00:37.600 --> 00:00:40.600
+Résumé la manière dont les données ont été collectées ou générées.
+
+00:00:40.600 --> 00:00:44.600
+Mentionner les outils, les instruments ou les protocoles utilisées,
+
+00:00:44.600 --> 00:00:47.600
+ainsi que les conditions expérimentales pertinentes.
+
+00:00:48.600 --> 00:00:50.600
+N'oubliez pas que le rythme doit permettre
+
+00:00:50.600 --> 00:00:52.600
+à l'ensemble de données d'être autonome,
+
+00:00:52.600 --> 00:00:56.600
+il ne doit pas s'appuyer sur la publication associée pour les détails clés.
+
+00:00:56.600 --> 00:00:59.600
+Instruction et exigence logicielle.
+
+00:00:59.600 --> 00:01:02.600
+Indiquer aux utilisateurs comment accéder aux fichiers et les utilisés.
+
+00:01:02.600 --> 00:01:05.600
+Si un logiciel ou un code spécifique à nécessaire,
+
+00:01:05.600 --> 00:01:08.600
+indiquer le émancionner les exigences en matière de version.
+
+00:01:09.600 --> 00:01:11.600
+Information sur le partage et l'accès.
+
+00:01:11.600 --> 00:01:15.600
+Indiquer clairement les conditions de licence pour la réutilisation.
+
+00:01:15.600 --> 00:01:18.600
+Indiquer si l'ensemble de données est librement accessible
+
+00:01:18.600 --> 00:01:20.600
+ou si les soumis à des restrictions.
+
+00:01:20.600 --> 00:01:23.600
+Nous recommandons l'utilisation d'une licence créative commun,
+
+00:01:23.600 --> 00:01:26.600
+c'est Sébère Ygrèque pour une large réutilisation.
+

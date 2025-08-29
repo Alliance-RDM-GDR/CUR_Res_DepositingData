@@ -1,0 +1,56 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+Start structuring your data set early, but it's never too late.
+
+00:00:05.000 --> 00:00:09.000
+Ideally, you should design your data set structure at the start of a project,
+
+00:00:09.000 --> 00:00:14.000
+but if that wasn't done, restructuring it midway or even at the end is still worthwhile.
+
+00:00:14.000 --> 00:00:17.000
+Here are key elements to consider.
+
+00:00:18.000 --> 00:00:20.000
+Folder Structure
+
+00:00:20.000 --> 00:00:23.000
+Organize data logically.
+
+00:00:23.000 --> 00:00:29.000
+For example, create separate folders for raw data, process data, documentation, and analysis scripts.
+
+00:00:29.000 --> 00:00:33.000
+Group-related files together and avoid clutter.
+
+00:00:33.000 --> 00:00:36.000
+File Formats
+
+00:00:36.000 --> 00:00:39.000
+Choose formats that are open and widely supported.
+
+00:00:39.000 --> 00:00:46.000
+For example, use CSV instead of Excel for tabular data, or TIFF instead of proprietary image formats like .sy.
+
+00:00:46.000 --> 00:00:50.000
+Open formats support long-term access and reuse.
+
+00:00:50.000 --> 00:00:53.000
+Naming conventions
+
+00:00:53.000 --> 00:00:57.000
+Use descriptive and consistent names for files and folders.
+
+00:00:57.000 --> 00:01:02.000
+Avoid vague labels like data underscore final 2.xlsx.
+
+00:01:02.000 --> 00:01:07.000
+Instead, use names that clearly describe the content or version.
+
+00:01:07.000 --> 00:01:15.000
+The goal is to help others, and yourself, quickly understand the data set structure in contents, even years later.
+
+00:01:15.000 --> 00:01:19.000
+We'll now look at tools and models that can guide this process.
+

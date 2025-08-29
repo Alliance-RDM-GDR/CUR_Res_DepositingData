@@ -2,8 +2,8 @@
 title: "Dépôt des données de recherche"
 subtitle: "Guide à l'usage des chercheurs"
 author: 
-  - name: Daniel Manrique-Castano, Ph.D
-    email: daniel.manrique-castano@alliancecan.ca
+  - name: Équipe de curation des données du DFDR
+    email: curators@frdr-dfdr.ca
     affiliations:
       - name: Alliance de Recherche Numérique du Canada
 
@@ -25,6 +25,12 @@ format:
     mermaid:
       theme: forest
       mermaid-format: svg
+    revealjs-plugins:
+      - kapsner/audio-slideshow
+    revealjs-args:
+      - audio: true
+      - audioAutoplay: false
+      - audioControls: true
 
 filters:
   - reveal-auto-agenda
@@ -42,7 +48,7 @@ editor: source
 
 ## Pourquoi partageons-nous et réutilisons-nous des données?{.center} 
 
-::: {style="text-align: left;font-size: 80%"}
+::: {style="text-align: left;font-size: 70%"}
 
 Il existe plusieurs raisons de partager des données de recherche :
 
@@ -57,23 +63,27 @@ Il existe plusieurs raisons de partager des données de recherche :
 
 ## Politique des trois organismes sur la gestion des données de recherche{.center} 
 
+::: {style="text-align: left;font-size: 80%"}
 Le [gouvernement du Canada ](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management) fait la promotion de la gestion des données de recherche (GDR) au moyen d’une [politique conjointe des trois organismes](https://science.gc.ca/site/science/en/interagency-research-funding/policies-and-guidelines/research-data-management/tri-agency-research-data-management-policy-frequently-asked-questions).
 
 Cette politique vise à mettre en place des [plans de gestion des données (PGD)]{style="text-decoration: underline;"} et des [pratiques de partage des données ]{style="text-decoration: underline;"} de recherche pour maximiser les retombées. 
-
+:::
 
 ## {{< bi share-fill >}} Le partage de données est une responsabilité professionnelle{.center}
 
+::: {style="text-align: left;font-size: 80%"}
 Le partage des données n'est [PAS UNIQUE]{style="color:red;"} pour répondre aux exigences des organismes de financement et des revues. Il s’agit d’une [responsabilité éthique et professionnelle]{style="color:green;"} des chercheuses et chercheurs envers la reproductibilité de la science et réutilisabilité des données scientifiques.
+:::
 
 ##  La recherche a donc besoin :{.center} 
 
+::: {style="text-align: left;font-size: 80%"}
 - De chercheuses et chercheurs [compétents]{style="color:green;"} formés à la [GDR]{style="text-decoration: underline;"} et à l’analyse de données.
 
 - [D’approches normalisées ]{style="color:green;"} pour le [partage]{style="text-decoration: underline;"} de données brutes et la codification des analyses en soutien aux résultats de recherche.
 
 - De chercheuses et chercheurs qui font de la  [transparence ]{style="color:green;"} et des pratiques exemplaires un devoir [d’intégrité]{style="text-decoration: underline;"}.
-
+:::
 
 ## Avantages pour les différentes parties prenantes
 
@@ -84,8 +94,9 @@ Le partage des données n'est [PAS UNIQUE]{style="color:red;"} pour répondre au
 %%| fig-height: 10
 
 flowchart LR
-A[Efficacité] --> B[Collaboration] 
-B --> C[Reproductibilité]
+A[Efficacité] --> B[Facilité de partage]
+B --> C[Collaboration]
+C --> D[Reproductibilité]
 ```
 
 ### {{< bi x-diamond-fill >}} Pour les éditeurs :
@@ -163,6 +174,7 @@ B --> C[Rendement du capital investi]
 
 ## Enjeux courants avec les dépôts de données{.center} 
 
+::: {style="text-align: left;font-size: 80%"}
 Les données partagées sont le plus souvent :
 
 - {{< bi file-earmark-text-fill >}} Exemptes de  [métadonnées ou de fichiers README]{style="color:red;"} suffisamment complets pour en [expliquer le contexte, les méthodes et la structuration]{style="text-decoration: underline;"}.
@@ -170,12 +182,13 @@ Les données partagées sont le plus souvent :
 - {{< bi file-earmark-break-fill >}} [Désorganisées]{style="color:red;"} et donc impossibles à réutiliser.
 
 - {{< bi file-earmark-medical-fill >}} Traitées comme un [simple complément ]{style="color:red;"} aux articles scientifiques.
-
+:::
 
 # Principes du partage de données
 
 ## Faire des données une ressource utile et autonome{.center}
 
+::: {style="text-align: left;font-size: 80%"}
 Réalisations attendues lors du partage des données :
 
 - {{< bi archive-fill >}} Chaque jeu de données doit pouvoir [fonctionner indépendamment]{style="color:green;"}.
@@ -183,7 +196,7 @@ Réalisations attendues lors du partage des données :
 - {{< bi binoculars-fill >}} Les jeux de données doivent être [repérables]{style="color:green;"} et [compréhensibles]{style="color:green;"}.
 
 - {{< bi person-fill >}} Les jeux de données doivent pouvoir être  [réutilisés]{style="color:green;"} par d’autres personnes.
-
+:::
 
 ## Principes FAIR {.smaller}
 
@@ -219,11 +232,13 @@ Réalisations attendues lors du partage des données :
 
 ## {{< bi text-center >}} Règles générales pour le partage des données{.center}
 
+::: {style="text-align: left;font-size: 80%"}
 1.  {{< bi bookmark >}} Fournir un titre [descriptif]{style="color:green;"} un résumé et une liste de mots-clés appropriés pour le jeu de données.
 
 2.  {{< bi file-earmark-pdf-fill >}} Rédiger un fichier [README ]{style="color:green;"} avec des [métadonnées]{style="text-decoration: underline;"}.
 
 3.  {{< bi diagram-2-fill >}} Définir une [structure]{style="color:green;"} de jeu de données et des [conventions de dénomination]{style="color:green;"} cohérentes.
+:::
 
 ## 1. Fournir un titre descriptif, un résumé et une liste de mots-clés.
 
@@ -265,7 +280,9 @@ Le titre du jeu de données [NE DOIT PAS]{style="color:red;"} équivaloir au tit
 
 ## Description (résumé)
 
+::: {style="text-align: left;font-size: 80%"}
 La description de l'ensemble de données doit contenir [suffisamment d'éléments]{style="color:green;"} pour permettre de comprendre sa nature, son origine et son contenu.
+:::
 
 ### {{< bi  bookmark-check >}} Exemple 1 
 
@@ -299,7 +316,9 @@ Pour déterminer les mots-clés pertinents, se poser la question suivante :
 
 ## 2. Rédiger un fichier README, le guide ultime des jeux de données {.center}
 
+::: {style="text-align: left;font-size: 80%"}
 Le fichier [README]{style="color:green;"} est une guide pour [comprendre le jeu de données]{style="color:green;"} et en favoriser la réutilisation.
+:::
 
 ::::: {layout-ncol="2"}
 :::: {#first-column}
@@ -309,7 +328,7 @@ Le fichier [README]{style="color:green;"} est une guide pour [comprendre le jeu 
 ::::
 
 :::: {#second-column}
-::: {style="font-size: 80%;"}
+::: {style="font-size: 70%;"}
 Les utilisatrices et utilisateurs du DFDR peuvent utiliser nos modèles [text](https://www.frdr-dfdr.ca/docs/txt/README.txt) et \[web\] pour générer des fichiers README à joindre à leur soumission.
 
 Autres ressources pertinentes :\
@@ -322,7 +341,7 @@ Autres ressources pertinentes :\
 
 ## Contenu d’un fichier README
 
-::: {style="text-align: left; font-size: 68%"}
+::: {style="text-align: left; font-size: 60%"}
 En règle générale, un fichier [README](https://github.com/Alliance-RDM-GDR/RDM_DepositingData/blob/main/resources/README_Example.txt) comprend les éléments suivants :
 
 -   {{< bi database-fill >}} [Identifiants]{style="color:green;"} du jeu de données comprenant le titre, les autrices et auteurs, la date de collecte, l’information géographique, etc.
@@ -364,6 +383,7 @@ Un jeu de données [structuré]{style="color:green;"} est la clé pour le compre
 
 ## Principes de structuration d'un jeu de données {.center}
 
+::: {style="text-align: left;font-size: 80%"}
 Il est préférable d’établir un schéma structuré pour les donné au [début du projet]{style="color:green;"}, mais il peut aussi convenir de le faire pendant.
 
 ::: callout-tip
@@ -372,6 +392,7 @@ Il est préférable d’établir un schéma structuré pour les donné au [débu
 -   {{< bi folder-fill >}} [Structuration]{style="color:green;"} des dossiers.
 -   {{< bi filetype-tiff >}} Les [types et formats ]{style="color:green;"} de fichiers.
 -   {{< bi file-earmark-font-fill >}} Une nomenclature [logique et descriptive]{style="color:green;"}.
+:::
 :::
 
 Dans l'ensemble, veillez à ce que la structure de l'ensemble de données soit [logique et cohérente]{style="color:green;"}, et compréhensible pour les utilisateurs externes.
@@ -402,7 +423,7 @@ Le modèle systémique [TIER 4.0](https://www.projecttier.org/tier-protocol/prot
 ::::
 
 :::: {#second-column}
-::: {style="text-align: left;font-size: 70%"}
+::: {style="text-align: left;font-size: 60%"}
 
 Les données partagées comprennent:
 
@@ -484,7 +505,7 @@ Les [conventions de dénomination]{style="color:green;"} logique sont essentiell
 
 ## {{< bi card-checklist >}} Déposer des données{.center} 
 
-::: {style="text-align: left;font-size: 90%"}
+::: {style="text-align: left;font-size: 80%"}
 Lorsque vous partagez des données, assurez-vous que l'ensemble de données présente les caractéristiques suivantes :
 
 - {{< bi diagram-2-fill >}} Les dossiers et les fichiers sont [clairement structurés ]{style="color:green ;"}.
@@ -498,7 +519,7 @@ Lorsque vous partagez des données, assurez-vous que l'ensemble de données pré
 
 ## Foire aux questions{.center}
 
-::: {style="text-align: left;font-size: 75%"}
+::: {style="text-align: left;font-size: 70%"}
 {{< bi patch-question >}} **Quand dois-je commencer à organiser mes données en vue de leur partage?**
 
 Nous recommandons d’appliquer les [pratiques exemplaires de GDR dès le début et tout au long du processus de recherche]{style="color:green;"}. il est difficile de commencer à organiser des données après des années de [gestion chaotique]{style="color:red;"}.
@@ -514,7 +535,7 @@ Ce qui compte, c’est que votre jeu de données soit [soigneusement consigné e
 
 ## Foire aux questions {.center}
 
-::: {style="text-align: left;font-size: 80%"}
+::: {style="text-align: left;font-size: 70%"}
 {{< bi patch-question >}} **Mes données peuvent-elles être citées?**
 
 Bien sûr! Votre jeu de données se verra attribuer un [DOI]{style="color:green;"} et pourra être cité [indépendamment]{style="text-decoration: underline;"} de votre article scientifique. Même que, si vous le publiez avant l’article, vous pourrez le citer dans votre propre bibliographie.
@@ -530,10 +551,11 @@ Vous pouvez publier vos données dans des dépôts [spécialisés ou généralis
 
 ## En bref {.center}
 
+::: {style="text-align: left;font-size: 80%"}
 Un jeu de données est un objet de recherche indépendant qui peut être utilisé (et cité) [indépendamment]{style="color:green;"} de l'article de recherche.
 
 Mieux encore, considérez les articles comme des [compléments à votre jeu de données !]{style="color:green;"}
-
+:::
 
 # Dépôts généralistes canadiens
 
@@ -575,9 +597,9 @@ Le DFDR rassemble une [foule de disciplines]{style="color:green;"} et de types d
 Le DFDR bénéficie de personnel qualifié qui guide les équipes de recherche et les établissements pour assurer la pertinence et la conformité avec les principes [FAIR](https://www.go-fair.org/fair-principles/) des jeux de données versés.
 :::
 
-## Borealis
+## Borealis{.center}
 
-::: {style="text-align: left;font-size: 90%"}
+::: {style="text-align: left;font-size: 80%"}
 [Borealis](https://borealisdata.ca/) est un dépôt de données de recherche canadien appuyé par des bibliothèques universitaires, des établissements de recherche et l’Alliance de recherche numérique du Canada.
 
 **Caractéristiques :**
@@ -601,7 +623,7 @@ Le DFDR bénéficie de personnel qualifié qui guide les équipes de recherche e
 
 ::::: {layout-ncol="2"}
 :::: {#first-column}
-::: {style="text-align: left;font-size: 80%"}
+::: {style="text-align: left;font-size: 70%"}
 
 - Chaque établissement ou groupe a une collection générale. 
 
@@ -623,7 +645,7 @@ Le DFDR bénéficie de personnel qualifié qui guide les équipes de recherche e
 
 ::::: {layout-ncol="2"}
 :::: {#first-column}
-::: {style="text-align: left;font-size: 80%"}
+::: {style="text-align: left;font-size: 70%"}
 
 {{< bi layout-wtf >}} [Aperçu des fichiers]{style="color:green;"} permettant de survoler le contenu directement dans le navigateur.
 
@@ -669,7 +691,9 @@ Le DFDR bénéficie de personnel qualifié qui guide les équipes de recherche e
 
 ### Services d'appui:
 
+::: {style="text-align: left;font-size: 80%"}
 Communiquez avec nous pour vérifier que vos données sont bien préparées et pourront être partagées efficacement avec la communauté de recherche.
 
 -   Courriel: rdm-gdr\@alliancecan.ca
--   https://www.frdr-dfdr.ca/repo/
+-   [Site web du DFDR](https://www.frdr-dfdr.ca/repo/)
+:::
