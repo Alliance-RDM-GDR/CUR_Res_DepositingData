@@ -38,7 +38,14 @@ const initAudioSlideshow = function(Reveal){
 	var playerOpacity = .05; // opacity when the mouse is far from to the audioplayer
 	var startAtFragment = false; // when moving to a slide, start at the current fragment or at the start of the slide
 	var playerStyle = "position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;"; // style used for container of audio controls
-	// ------------------
+	
+    // Automatically adjust audio prefix based on URL (e.g., _en.qmd or _fr.qmd)
+    if (window.location.pathname.includes('_fr')) {
+        prefix = "audio/fr/";
+    } else {
+        prefix = "audio/en/";
+    }
+// ------------------
 
 	var silence;
 	var currentAudio = null;

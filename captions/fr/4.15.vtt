@@ -1,0 +1,53 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.680
+La programmation est essentielle en recherche.
+
+00:00:03.280 --> 00:00:06.280
+Pour assurer la transparence et la reproductibilité,
+
+00:00:06.280 --> 00:00:08.720
+il ne suffit pas de partager uniquement les données,
+
+00:00:08.720 --> 00:00:12.720
+il faut aussi partager le code utilisé pour les transformer et les analyser.
+
+00:00:13.360 --> 00:00:15.720
+Cela inclut les scripts servant à.
+
+00:00:16.320 --> 00:00:18.320
+N'étoyer et formater les données.
+
+00:00:18.960 --> 00:00:20.680
+Fusionner des jeux de données.
+
+00:00:21.240 --> 00:00:24.160
+Générer des graphiques ou des résultats statistiques.
+
+00:00:24.800 --> 00:00:27.960
+Le code documente la logique à l'origine de vos résultats.
+
+00:00:28.240 --> 00:00:31.280
+Il permet à d'autres de reproduire vos étapes et de comprendre
+
+00:00:31.280 --> 00:00:34.240
+comment les données brutont été transformées en résultat phénom.
+
+00:00:35.320 --> 00:00:38.520
+La programmation est une compétence fondamentale en recherche
+
+00:00:38.520 --> 00:00:41.960
+au même titre que la conception expérimentale ou les statistiques.
+
+00:00:42.840 --> 00:00:45.560
+Des langages commets répitons sont largement utilisés,
+
+00:00:45.560 --> 00:00:47.040
+et les outils modernes,
+
+00:00:47.040 --> 00:00:50.240
+y compris les assistants basés sur l'intelligence artificielle,
+
+00:00:50.240 --> 00:00:52.760
+rendent la programmation plus accessible que jamais.
+

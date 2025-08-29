@@ -1,0 +1,44 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.000
+a checklist for submitting data.
+
+00:00:03.700 --> 00:00:07.460
+When you're ready to submit your data set to a repository like FRDR,
+
+00:00:07.460 --> 00:00:10.100
+ensure it is well prepared for reuse by others.
+
+00:00:11.300 --> 00:00:13.300
+Here's a quick checklist to guide you.
+
+00:00:14.500 --> 00:00:16.500
+Folders and files are organized.
+
+00:00:17.800 --> 00:00:20.000
+Use a clear and logical structure.
+
+00:00:20.600 --> 00:00:24.800
+Align it with community standards when possible, or at least with common sense.
+
+00:00:26.000 --> 00:00:29.400
+Files contain consistent and descriptive naming conventions.
+
+00:00:30.800 --> 00:00:36.200
+Ensure that anyone looking at your data set can understand what each file is and how it fits into the larger structure.
+
+00:00:37.700 --> 00:00:40.000
+You have prioritized open file formats.
+
+00:00:41.500 --> 00:00:48.000
+Choose formats that are widely accessible and support long-term preservation, such as CSV for tabular data or TIFF for images.
+
+00:00:49.500 --> 00:00:51.200
+Documentation is sufficient.
+
+00:00:53.100 --> 00:00:58.900
+Included detailed read and file, relevant metadata, and any code books needed to understand and reuse the data.
+
+00:01:00.000 --> 00:01:08.500
+By following these steps, you not only comply with best practices, you also increase the visibility, impact, and reproducibility of your work.
+

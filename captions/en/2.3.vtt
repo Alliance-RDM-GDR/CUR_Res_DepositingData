@@ -1,0 +1,38 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.000
+Common issues in shared datasets.
+
+00:00:04.000 --> 00:00:11.000
+Even in the few cases where data are shared, either upon request or as supplementary material in publications, serious issues are common.
+
+00:00:12.000 --> 00:00:14.000
+The most frequent problems include
+
+00:00:15.000 --> 00:00:17.000
+Missing or incomplete metadata.
+
+00:00:19.000 --> 00:00:25.000
+Without adequate context, it's impossible to understand how the data were generated or what the variables represent.
+
+00:00:26.000 --> 00:00:27.000
+No Read Me File.
+
+00:00:28.000 --> 00:00:37.000
+Many datasets like a simple text file describing the content, explaining how to use the data, the structure of the files, or the methodology behind them.
+
+00:00:38.000 --> 00:00:40.000
+Disorganized folder structures.
+
+00:00:41.000 --> 00:00:48.000
+Files are often scattered without logic and naming conventions, making it difficult to navigate, interpret, or reuse the dataset.
+
+00:00:49.000 --> 00:00:51.000
+Data sets treated as secondary.
+
+00:00:51.000 --> 00:01:00.000
+Too often, data are considered in appendix to the publication, rather than a standalone research output with its own value and life cycle.
+
+00:01:01.000 --> 00:01:08.000
+Together, these issues make reuse difficult, if not impossible, and diminish the long-term utility of research data.
+

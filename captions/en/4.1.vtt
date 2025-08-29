@@ -1,0 +1,44 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.200
+3 core principles for sharing data
+
+00:00:04.200 --> 00:00:10.600
+When preparing a dataset for sharing, there are 3 essential practices that apply across disciplines.
+
+00:00:10.600 --> 00:00:15.000
+Provide a descriptive title, summary, and keywords.
+
+00:00:15.000 --> 00:00:20.200
+A dataset's title should clearly reflect its content, not the research articles title.
+
+00:00:20.200 --> 00:00:28.700
+For example, indicate the type of data, e.g., images, tables, DNA sequences, the subject, and other relevant details.
+
+00:00:28.700 --> 00:00:35.600
+Keywords and a concise summary help improve discoverability in repositories and search engines.
+
+00:00:35.600 --> 00:00:39.100
+Include a ReadMe file with metadata.
+
+00:00:39.100 --> 00:00:42.500
+Metadata is data about data.
+
+00:00:42.500 --> 00:00:48.700
+A ReadMe file should explain the context, collection methods, file contents, and how to work with the dataset.
+
+00:00:48.700 --> 00:00:52.900
+It is critical for helping others understand and reuse your data.
+
+00:00:52.900 --> 00:00:57.200
+Ensure logical structure and organization.
+
+00:00:57.200 --> 00:01:01.600
+Use clear folder hierarchies and descriptive, consistent file names.
+
+00:01:01.600 --> 00:01:08.200
+This helps users quickly grasp how the dataset is organized and how files relate to one another.
+
+00:01:08.200 --> 00:01:14.200
+These foundational elements significantly improve the chances that your data will be reused and understood.
+

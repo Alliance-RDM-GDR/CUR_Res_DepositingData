@@ -1,0 +1,29 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.800
+Borey Ali propose un ensemble d'outils intégrés qui améliorent l'utilisabilité et l'exploration des données de recherche.
+
+00:00:06.800 --> 00:00:08.500
+Aperçu des fichiers.
+
+00:00:08.500 --> 00:00:14.200
+Cette fonctionnalité permet aux utilisateurs d'explorer certains types de fichiers directement dans le navigateur,
+
+00:00:14.200 --> 00:00:18.500
+afin d'évaluer rapidement la pertinence d'un jeu de données pour leurs besoins.
+
+00:00:18.500 --> 00:00:20.400
+outils data explorer.
+
+00:00:20.400 --> 00:00:28.800
+Cet outil permet de parcourir et de visualiser de manière interactive des données tabulaires provenant de formats comme SPSS, Excel et CSV.
+
+00:00:28.800 --> 00:00:30.800
+Integration avec GIEB.
+
+00:00:30.800 --> 00:00:37.300
+Borey Ali prend en charge les GIEB actions, permettant aux chercheurs de lier leurs jeux de données à des dépôt de codes versionnés.
+
+00:00:37.300 --> 00:00:42.300
+Cela est particulièrement utile pour les flux de travail combinant données et scriptes reproductibles.
+

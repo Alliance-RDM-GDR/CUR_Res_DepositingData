@@ -1,0 +1,74 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.740
+problèmes courant dans les ensembles de données partagées.
+
+00:00:03.580 --> 00:00:06.100
+Même dans les rarcares où les données sont partagées,
+
+00:00:06.100 --> 00:00:10.160
+que ce soit sur demande ou en tant que matériel supplémentaire dans les publications,
+
+00:00:10.160 --> 00:00:11.940
+les problèmes graves sont fréquents.
+
+00:00:11.940 --> 00:00:13.280
+En particulier,
+
+00:00:13.940 --> 00:00:16.280
+des métadonnements cantoins complètes.
+
+00:00:16.280 --> 00:00:18.040
+Sans contexte adéquate,
+
+00:00:18.040 --> 00:00:21.340
+il est impossible de comprendre comment les données ont été générées
+
+00:00:21.340 --> 00:00:23.040
+ou ce que les variables représentent.
+
+00:00:23.740 --> 00:00:25.460
+Absence de fichiers rythmes.
+
+00:00:25.460 --> 00:00:28.980
+De nombreux ensembles de données sont dépourvus d'un simple fichier texte
+
+00:00:28.980 --> 00:00:30.420
+décrivant le contenu,
+
+00:00:30.420 --> 00:00:32.480
+expliquant comment utiliser les données,
+
+00:00:32.480 --> 00:00:35.320
+la structure des fichiers ou la méthodologie sous-jacente.
+
+00:00:36.320 --> 00:00:38.620
+Structure de dossier désorganisée.
+
+00:00:38.620 --> 00:00:42.680
+Les fichiers sont souvent dispersés sans logique ni convention de dénommination,
+
+00:00:42.680 --> 00:00:44.760
+ce qui rend difficile la navigation,
+
+00:00:44.760 --> 00:00:47.920
+l'interprétation ou la réutilisation de l'ensemble de données.
+
+00:00:49.220 --> 00:00:52.660
+Les ensembles de données sont traités comme des éléments secondaires.
+
+00:00:52.660 --> 00:00:56.760
+Trop souvent, les données sont considérées comme une annexe à la publication,
+
+00:00:56.760 --> 00:01:00.020
+plutôt que comme un résultat de recherche autonome ayant sa propre valeur
+
+00:01:00.020 --> 00:01:01.360
+et son propre cycle de vie.
+
+00:01:02.340 --> 00:01:05.800
+Ensemble, ces problèmes rendent la réutilisation difficile,
+
+00:01:05.800 --> 00:01:09.740
+voire impossible et diminuit l'utilité à long terme des données de recherche.
+

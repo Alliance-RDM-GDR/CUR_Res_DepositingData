@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.000
+Share Tidy Formatted Tables
+
+00:00:03.000 --> 00:00:08.000
+To support reuse and reproducibility, share your data in Tidy Table Format.
+
+00:00:08.000 --> 00:00:15.000
+This means organizing data so that each column represents a single variable.
+
+00:00:15.000 --> 00:00:23.000
+Each row represents a single observation, and each value is clearly placed in its own cell.
+
+00:00:24.000 --> 00:00:34.000
+In the example shown, the table follows a long format with identifier variables such as mouse ID, condition, and time point to help distinguish each experimental unit.
+
+00:00:34.000 --> 00:00:40.000
+Analysis variables include counts of specific cell types used for interpretation.
+
+00:00:40.000 --> 00:00:48.000
+Also, derived variables, created during data processing, like ratios or proportions, are clearly labeled and separated.
+
+00:00:48.000 --> 00:00:52.000
+This structure ensures that data are machine readable.
+
+00:00:52.000 --> 00:01:01.000
+Files can be easily imported into analysis tools, and the dataset can be reused without confusion.
+
+00:01:01.000 --> 00:01:07.000
+Avoid mixing multiple types of information in the same cell or formatting your table visually.
+
+00:01:07.000 --> 00:01:11.000
+Instead, think in terms of data logic and clarity.
+

@@ -1,0 +1,32 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.000
+Beware of poorly formatted tables.
+
+00:00:04.000 --> 00:00:12.000
+Although spreadsheets like Excel, .xls, .xlsx are widely used in research, they often result in poorly structured and unusable tables.
+
+00:00:13.500 --> 00:00:18.500
+In fact, tables are among the most problematic data objects in research due to formatting issues such as...
+
+00:00:20.000 --> 00:00:23.500
+Merged cells that confuse parsing tools and make automation difficult.
+
+00:00:24.500 --> 00:00:29.500
+In consistent structures where multiple variables are crammed into a single column or row.
+
+00:00:30.500 --> 00:00:35.500
+Next content such as tables combined with graphs, formatting, or commentary.
+
+00:00:36.500 --> 00:00:41.500
+These issues make data hard to clean, validate, reuse, or preserve.
+
+00:00:42.500 --> 00:00:47.500
+Unfortunately, they're common, especially in supplementary materials of research articles.
+
+00:00:48.500 --> 00:00:50.500
+Good data practices start with structure.
+
+00:00:50.500 --> 00:00:57.500
+If your tables are not machine readable and logically organized, they lose much of their value for others and for future you.
+
